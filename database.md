@@ -1,19 +1,19 @@
 DB Design
 =========
-*Users
+* Users
 UserID, UserName, PasswordHash, FirstName, LastName, Email (pull profile picture from gravatar)
 
-*Note
+* Note
 NoteID, ClassID, AuthorID, TeacherID, UniverityID, FileServerLocation
 
-*Classes
+* Classes
 ClassID, Name, Description, UniversityID, TeacherID
 
-*Teachers
+* Teachers
 TeacherID, Name, UniversityID
 
-*Univerisities
+* Univerisities
 UniversityID, Name, City, State, ZipCode
 
-*SubscribedClasses
+* SubscribedClasses
 UserID, ClassID
