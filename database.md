@@ -8,7 +8,7 @@ DB Design
 	* LastName
 	* Email (pull profile picture from gravatar)
 
-* Note
+* Notes
 	* NoteID
 	* ClassID
 	* AuthorID
