@@ -15,16 +15,15 @@ DB Design
 	* FileServerLocation
 
 * Classes
-	* ClassID
+	* ClassID 
+	* TeacherID
+	* UniversityID
 	* Name
 	* Description
-	* UniversityID (Unless we want to allow teachers to teach at multiple universities, Should not have to keep database normalized)
-	* TeacherID
 
 * Teachers
 	* TeacherID
 	* Name
-	* UniversityID
 
 * Univerisities
 	* UniversityID
