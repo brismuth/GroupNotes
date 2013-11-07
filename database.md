@@ -12,15 +12,13 @@ DB Design
 	* NoteID
 	* ClassID
 	* AuthorID
-	* TeacherID
-	* UniverityID
 	* FileServerLocation
 
 * Classes
 	* ClassID
 	* Name
 	* Description
-	* UniversityID
+	* UniversityID (Unless we want to allow teachers to teach at multiple universities, Should not have to keep database normalized)
 	* TeacherID
 
 * Teachers
