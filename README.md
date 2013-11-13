@@ -10,9 +10,10 @@ Possible Features
 * History and revisioning of notes
 * Automergic™ Notes
 * Collaborative Live Edit
+* Class Chat
 
 Technologies
 * NodeJS
 * MongoDB / HaDoop
 * Angular / Meteor
-* Markdown / Ghost?
+* Markdown / Ghost? / or possibly implement or own bullet based input system
