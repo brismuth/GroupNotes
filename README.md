@@ -1,6 +1,8 @@
 GroupNotes
 ==========
-Notes will be open to the world and searchable by class, university, professor, date, etc.
+GroupNotes is a revolutionary way to take and share class notes. Planning on being "sick" this Friday? No biggie! Just check out what Suzie wrote down from class, she's always there and always paying attention. 
+
+No worries!
 
 * [Features](https://github.com/sixthsmith90/GroupNotes/wiki/Features)
 * [Database](https://github.com/sixthsmith90/GroupNotes/wiki/Database)
