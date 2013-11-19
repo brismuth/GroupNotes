@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title></title>
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+	<link href="apprise.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+
+	<script src="mousetrap.min.js"></script>
+	<script src="apprise-1.5.full.js"></script>
+	<style>
+		.section {
+			border-bottom: 1px solid #aaa;
+			border-top: 1px solid #aaa;
+			margin-bottom: 5px;
+		}
+		#note {
+			padding: 15px;
+		}
+		#note textarea {
+			height: 600px;
+		}
+		#footer {
+			position: fixed;
+			bottom: 0px;
+			left: 0px;
+			width: 100%;
+			height: 80px;
+			background: #444;
+			color: white;
+			display: none;
+			z-index: 10;
+		}
+		#footer p {
+			float: left;
+			padding: 15px;
+			margin: 15px;
+		}
+		#footer li {
+			float: left;
+			padding: 15px;
+			margin: 15px;
+		}
+		#footer li a {
+			color: white;
+			text-decoration: none;
+		}
+		#chat {
+			position: fixed;
+			width: 25%;
+			height: 100%;
+			left: 0px;
+			top: 0px;
+			background: #EEE;
+			padding: 15px;
+		}
+		.username {
+			font-weight: bold;
+		}
+		em {
+			text-decoration: underline;
+			font-style: normal;
+		}
+
+		table {
+			width: 100%;
+		}
+		tr, td {
+			height: 26px;
+			line-height: 26px;
+		}
+	</style>
+	<script>
+		footer = false;
+	  function toggle() {
+    	footer = !footer;
+    	$('#footer').toggle();	  	
+	  }
+	  function addTable(size) {
+	  	var dims = size.split('x')
+	  	var str = '<div class="section mousetrap" contenteditable="true"><table class="table-bordered">';
+	  	str += '<tr>';
+	  		for (c = 0; c < dims[1]; c++) {
+		  		str += '<th>Col</th>';
+		  	}
+		  	str += '</tr>'
+	  	for (r = 0; r < dims[0]; r++) {
+	  		str += '<tr>';
+	  		for (c = 0; c < dims[1]; c++) {
+		  		str += '<td></td>';
+		  	}
+		  	str += '</tr>'
+		  }
+		  str += '</table>';
+		  console.log(str);
+    	$('#note').append(str);
+    	$('#note .section:last-child').focus();
+	  }
+
+	  function addParagraph() {
+    	if (footer) {
+    		$('#note').append('<p class="section mousetrap" contenteditable="true" class="mousetrap"></p>');
+    		$('#note .section:last-child').focus();
+    		toggle();
+    		return false;
+    	}
+    }
+
+    function addNumberedList() {
+			if (footer) {
+    		$('#note').append('<ol class="section mousetrap" contenteditable="true"><li></li></ol>');
+    		$('#note .section:last-child').focus();
+    		toggle();
+    		return false;
+    	}
+    }
+
+    function addBullets() {
+    	if (footer) {
+    		$('#note').append('<ul class="section mousetrap" contenteditable="true"><li></li></ul>');
+    		$('#note .section:last-child').focus();
+    		toggle();
+    		return false;
+    	}
+		}
+
+		function addTablePopup() {
+    	if (footer) {
+    		apprise('What size of table do you want? e.g. 3x4 or 5x5 ', {input:true}, addTable);
+    		toggle();
+    		return false;
+    	}
+    }
+	  
+    Mousetrap.bind('ctrl+space', function() { toggle(); });
+    Mousetrap.bind('p', addParagraph);
+    Mousetrap.bind('n', addNumberedList);
+    Mousetrap.bind('b', addBullets);
+    Mousetrap.bind('t', addTablePopup);
+    Mousetrap.bind('esc', function() {
+    	footer = false;
+    	$('#footer').hide();
+    });
+  </script>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-3">
+		</div>
+		<div id="note" class="col-md-9">
+			<h2 contenteditable="true">The Election of 1796</h2>
+			<textarea name="editor1"></textarea>	
+		</div>
+	</div>
+	<div id="footer">
+		<p>Add</p>
+		<ul>
+			<li><a href="#" onclick="addParagraph()"><em>P</em>aragraph</a>
+			<li><a href="#" onclick="addNumberedList()"><em>N</em>umbered List</a>
+		  <li><a href="#" onclick="addBullets()"><em>B</em>ullets</a>
+		  <li><a href="#" onclick="addTablePopup()"><em>T</em>able</a>
+		</ul>
+	</div>
+	<div id="chat">
+		<p><span class="username">Sally:</span> Did anyone hear what was it that made the election of 1796 unique?</p>
+		<p><span class="username">Bob:</span> I missed it too.</p>
+		<p><span class="username">Alice	:</span> It was the only one in which a president and vice president were elected from opposing tickets.</p>
+		<p><span class="username">Sally	:</span> thx</p>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.0.1/ckeditor.js"></script>
+	<script>
+    CKEDITOR.replace( 'editor1' );
+	</script>
+</body>
+</html>
