@@ -5,16 +5,24 @@ body
     
 }
 
+a
+{
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
 .main-header
 {
-  background-color: #bbddaa;
+  background-color: #ddeecc;
   border-color: #ffffff;
   border-style: solid;
   border-width: 0px;
   padding: 0px;
   margin: 0px;
-  height: 75px;
-  width: 850px;
+  height: 90px;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -26,109 +34,42 @@ body
   float: left;
 }
 
-.main-body
+.headerright
 {
-  margin: 10px;
-  width: 850px;
+  float:right;
+  height: 90px;
+  vertical-align: bottom;
+
 }
 
-.mainpage
+.frmsignin
 {
-  height: 400px;
-  background-image: url('watermark1.png'); 
-  background-repeat: no-repeat;
-}
-
-.univ
-{
-  font-size:30px;
-  height:50px;
-  left:0;
-  line-height:33px;
-  padding:5px 5px 5px;
-  top:0;
-  width:480px;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
-  color: #cccccc;
-  margin-bottom: 14px;
-  margin-left: 10px;
+  float: right;
 }
 
 .signin
 {
   border-width: 3px;
-  float: right;
-  width: 200px;
   margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px
-  
-}
-
-.getnote
-{
-  width: 500px;
-  float: left;
-  margin-top: 80px;
-  height: 300px;
-}
-
-.lookupbutton
-{
-  margin-left: auto;
-  margin-right: auto;
-  background-color: green;
-  color: white;
-  height: 50px;
-  width: 300px;
-  margin-top: 10px;
-  font-size: 14px;
-  font-weight: bold;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  border-style: solid;  
-  border-width: 1px;
-  border-color: black;  
-}
-
-.frmsignin
-{
-   margin-left: auto;
-   margin-right: auto;
-   height: 300px;
-}
-
-.catchprase
-{
-  font-style: italic;
-  font-family:"Times New Roman";
-  font-size: 20px;
-  float:right;
-  line-height: 70px;
-  vertical-align: middle;
-  height: 70px;
-  width: 500px;
-  text-align: center;
+  margin-right: 10px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  vertical-align: bottom;
   
 }
 
 .register
 {
-   margin-top: 10px;
-   
+  float:right;
+  margin-right: 12px;
+  margin-top: 0px;
+  font-size: 14px;
 }
 
 .signintext
 {
-  text-align: center; 
-  border-color: black;
-  border-width: 1px;
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 20px;
+  font-size: 11px;
+  
 }
 
 .signininput
@@ -137,61 +78,25 @@ body
    border-color: black;
    border-style: solid;
    margin: 5px;
-   font-size: 16px;
-   line-height: 20px;
-   height: 30px;
-   width: 190;
-   padding:5px 5px 5px;
-   background-color: #f6f6f6;
+   background-color: #eeffee;
+   width: 100px;
 }
 
 .signinbutton
 {
   background-color: green;
   color: white;
-  height: 30px;
-  width: 180px;
+  height: 20px;
+  width: 80px;
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 11px;
   font-weight: bold;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   border-style: solid;  
   border-width: 1px;
   border-color: black;
-}
-
-.sectionbody
-{
-  color: green;
-  font-weight: bold;
-  font-size: 12px;
-  text-align: center;
-}
-
-.sectionlink
-{
-  text-decoration: none;
-  color: green;
-  font-weight: bold;
-  font-size: 12px;
-  text-align: center;
-}
-
-.main-footer
-{
-  width: 850px;
-  margin-left: 0px;
-  margin-right: auto;
-  text-align: center;
-}
-
-.lubutton
-{
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
 
 .signinb
@@ -200,3 +105,47 @@ body
   margin-right: auto;
   text-align: center;
 }
+
+
+.catchprase
+{
+  font-style: italic;
+  font-family:"Times New Roman";
+  font-size: 20px;
+  vertical-align: middle;
+  width: 500px;
+  text-align: center;
+  
+}
+
+.main-body
+{
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-footer
+{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.footerbody
+{
+  color: green;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footerlink
+{
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+

@@ -1,29 +1,9 @@
-
 .mainpage
 {
-  background-image: url('watermark1.png'); 
-  background-repeat: no-repeat;
   height: 400px;
   width: 500px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.univ
-{
-  font-size:30px;
-  height:50px;
-  left:0;
-  line-height:33px;
-  padding:5px 5px 5px;
-  top:0;
-  width:480px;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
-  color: #cccccc;
-  margin-top: 14px;
-  margin-left: 10px;
 }
 
 .getnote
@@ -32,7 +12,38 @@
   height: 300px;
 }
 
-.lookupbutton
+.regvalues
+{
+  font-size: 20px;
+  height: 25px;
+  left: 0;
+  line-height: 24px;
+  padding:5px 5px 5px;
+  top:0;
+  width:480px;
+  margin-top: 10px;
+  border-style: solid;  
+  border-width: 1px;
+  border-color: black;  
+}
+
+.regshort
+{
+  font-size: 20px;
+  height: 25px;
+  left: 0;
+  line-height: 24px;
+  padding:5px 5px 5px;
+  top:0;
+  width: 220px;
+  margin-top: 10px;
+  margin-right: 5px;
+  border-style: solid;  
+  border-width: 1px;
+  border-color: black;  
+}
+
+.regbutton
 {
   margin-left: auto;
   margin-right: auto;
@@ -49,12 +60,5 @@
   border-style: solid;  
   border-width: 1px;
   border-color: black;  
+  
 }
-
-.lubutton
-{
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-

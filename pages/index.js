@@ -2,6 +2,9 @@ var univclick = false;
 var teacherclick = false;
 var classclick = false;
 
+/**********************************************************
+ * 
+ **********************************************************/
 function txboxuniv()
 {
   it = document.getElementById("university");
@@ -14,6 +17,9 @@ function txboxuniv()
     
 }
 
+/**********************************************************
+ * 
+ **********************************************************/
 function txboxunivblur()
 {
   it = document.getElementById("university");  
@@ -25,6 +31,9 @@ function txboxunivblur()
   }  
 }
 
+/**********************************************************
+ * 
+ **********************************************************/
 function txboxteach()
 {
   it = document.getElementById("teacher");
@@ -37,6 +46,9 @@ function txboxteach()
     
 }
 
+/**********************************************************
+ * 
+ **********************************************************/
 function txboxteachblur()
 {
   it = document.getElementById("teacher");  
@@ -48,6 +60,9 @@ function txboxteachblur()
   }  
 }
 
+/**********************************************************
+ * 
+ **********************************************************/
 function txboxclass()
 {
   it = document.getElementById("class");
@@ -60,6 +75,9 @@ function txboxclass()
     
 }
 
+/**********************************************************
+ * 
+ **********************************************************/
 function txboxclassblur()
 {
   it = document.getElementById("class");  
