@@ -1,0 +1,60 @@
+ 
+<html>
+  <head>
+    <title>Group Notes</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="index2.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="main-header">
+      <div class="mainlogo">
+	  <img src="mainlogo.png" height="90px" />
+      </div>
+      <div class="headerright">
+	<!--<div class="catchprase">Insert witty quip here</div>-->
+	<div class="signin">
+	    <form class="frmsignin" action="" method="post">
+		<span class="signintext">Username</span><input class="signininput" type="text" value="" name="username" />
+		<span class="signintext">Password</span><input class="signininput" type="password" value="" name="password" />
+		<input class="signinbutton" type="submit" value="Sign in" name="sign" />
+	    </form>
+	    </div>
+            <div class="register"><a href="register.html">Register</a></div>
+         </div>
+      </div>
+    </div>
+        
+    <div class="main-body">
+      <div class="mainpage">
+        <div class="getnote">
+	  <input class="SearchInput" type="text" value="University" name="university" id="university" onclick="txboxuniv()" onblur="txboxunivblur()" />
+	  <input class="SearchInput" type="text" value="Teacher" name="teacher" id="teacher" onclick="txboxteach()" onblur="txboxteachblur()" />
+	  <input class="SearchInput" type="text" value="Class" name="class" id="class" onclick="txboxclass()" onblur="txboxclassblur()" />	
+	  <div class="lubutton">
+	    <input type="submit" class="lookupbutton" value="Get Notes" name="notes" />
+	  </div>
+	</div>
+      </div>
+
+      <!--
+      <div class="signin">
+	  <form class="frmsignin">
+	      <div class="signintext">Sign in</div>
+	      Username<br />
+	      <input class="signininput" type="text" value="" name="username" /><br />
+	      Password<br />
+	      <input class="signininput" type="password" value="" name="password" /><br />
+	      <div class="signinb">
+		<input class="signinbutton" type="submit" value="Sign in" name="sign" />
+	      </div>
+	      <div class="register">Or <a href="register.html">Register Here</a></div>
+	  </form>
+      </div>-->
+
+    </div>
+    <div class="main-footer">
+      <span class="footerbody"><a href="contactus.html" class="footerlink">Contact Us</a></span> | <span class="footerbody"><a href="aboutus.html" class="footerlink">About us</a></span>
+    </div>
+  </body>
+</html>
