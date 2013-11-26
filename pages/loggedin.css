@@ -1,0 +1,73 @@
+body
+{
+  margin: 0px;
+}
+
+.mainpage
+{
+  /*background-image: url('watermark1.png'); */
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 500px;
+  margin: 0 auto;
+  float:right;
+}
+
+.CurrentNotes
+{
+  width: 200px;
+  float: left;
+}
+
+.CurrentClasses
+{
+  width: 400px;
+  font-size: 20px;
+  border: 1px solid #AAA;
+}
+
+.SearchInput
+{
+  font-size: 30px;
+  height: 50px;
+  left: 0;
+  line-height: 33px;
+  padding: 14px;
+  top: 0;
+  width: 390px;
+  border: 1px solid #AAA;
+  color: #cccccc;
+  margin-top: 14px;
+  margin-left: 48px;
+  border-radius: 25px;
+}
+
+.getnote
+{
+  padding-top: 70px;
+  height: 300px;
+}
+
+.lookupbutton
+{
+  margin: 14px 0 0 245px;
+  background-color: green;
+  color: white;
+  height: 50px;
+  width: 130px;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid green;
+  cursor: hand;
+  cursor: pointer;
+}
+
+.lubutton
+{
+  margin: 0 auto;
+  text-align: center;
+}
+

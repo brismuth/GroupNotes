@@ -1,9 +1,8 @@
- 
 <html>
   <head>
     <title>Group Notes</title>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="index2.css">
+    <link rel="stylesheet" type="text/css" href="loggedin.css">
     <script src="index.js"></script>
   </head>
   <body>
@@ -14,18 +13,23 @@
       <div class="headerright">
 	<!--<div class="catchprase">Insert witty quip here</div>-->
 	<div class="signin">
-	    <form class="frmsignin" action="" method="post">
-		<span class="signintext">Username</span><input class="signininput" type="text" value="" name="username" />
-		<span class="signintext">Password</span><input class="signininput" type="password" value="" name="password" />
-		<input class="signinbutton" type="submit" value="Sign in" name="sign" />
-	    </form>
-	    </div>
+	  Username <a href="index2.html">Sign Out</a>
+	</div>
             <div class="register"><a href="register.html">Register</a></div>
          </div>
       </div>
     </div>
         
     <div class="main-body">
+    
+      <div class="CurrentNotes">
+        <select name="CurrentClasses" class="CurrentClasses" size="10">
+           <option>Class 1</option>
+           <option>Class 2</option>
+           <option>Class 3</option>
+        </select>
+      </div>
+    
       <div class="mainpage">
         <div class="getnote">
 	  <input class="SearchInput" type="text" value="University" name="university" id="university" onclick="txboxuniv()" onblur="txboxunivblur()" />
@@ -43,3 +47,5 @@
     </div>
   </body>
 </html>
+
+
