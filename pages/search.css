@@ -1,0 +1,34 @@
+.main-body
+{
+  padding: 0 130px;
+}
+
+.SearchInput
+{
+  font-size: 16pt;
+  height: 33px;
+  width: 280px;
+  margin-left: 20px;
+}
+
+.lookupbutton
+{
+  height: 33px;
+  margin: 14px 0 0 45px;
+}
+
+.SearchBar
+{
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 12px;
+}
+
+.SearchResults
+{
+
+}
+
+.SearchResult
+{
+  padding: 10px;
+}
