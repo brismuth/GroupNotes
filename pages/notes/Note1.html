@@ -26,7 +26,6 @@
 			height: 80px;
 			background: #444;
 			color: white;
-			display: none;
 			z-index: 10;
 		}
 		#footer p {
@@ -69,7 +68,7 @@
 		}
 	</style>
 	<script>
-		footer = false;
+		footer = true;
 	  function toggle() {
     	footer = !footer;
     	$('#footer').toggle();	  	
@@ -99,7 +98,6 @@
     	if (footer) {
     		$('#note').append('<p class="section mousetrap" contenteditable="true" class="mousetrap"></p>');
     		$('#note .section:last-child').focus();
-    		toggle();
     		return false;
     	}
     }
@@ -108,7 +106,6 @@
 			if (footer) {
     		$('#note').append('<ol class="section mousetrap" contenteditable="true"><li></li></ol>');
     		$('#note .section:last-child').focus();
-    		toggle();
     		return false;
     	}
     }
@@ -117,7 +114,6 @@
     	if (footer) {
     		$('#note').append('<ul class="section mousetrap" contenteditable="true"><li></li></ul>');
     		$('#note .section:last-child').focus();
-    		toggle();
     		return false;
     	}
 		}
@@ -125,7 +121,6 @@
 		function addTablePopup() {
     	if (footer) {
     		apprise('What size of table do you want? e.g. 3x4 or 5x5 ', {input:true}, addTable);
-    		toggle();
     		return false;
     	}
     }
@@ -148,19 +143,24 @@
 	<div class="row">
 		<div class="col-md-3">
 		</div>
-		<div id="note" class="col-md-9">
-			<p class="section mousetrap" contenteditable="true">
-			The United States presidential election of 1796 was the 3rd quadrennial presidential election. It was held from Friday, November 4 to Wednesday, December 7, 1796. It was the first contested American presidential election and the only one in which a president and vice president were elected from opposing tickets. The ratification of the Twelfth Amendment to the United States Constitution made such a result unlikely in the future.
-			</p>
-			<ul class="section mousetrap" contenteditable="true">
-			<li> <a href="/wiki/John_Adams" title="John Adams">John Adams</a>, Vice President of the United States from <a href="/wiki/Massachusetts" title="Massachusetts">Massachusetts</a></li>
-			<li><a href="/wiki/Thomas_Pinckney" title="Thomas Pinckney">Thomas Pinckney</a>, former Governor of <a href="/wiki/South_Carolina" title="South Carolina">South Carolina</a></li>
-			<li><a href="/wiki/Oliver_Ellsworth" title="Oliver Ellsworth">Oliver Ellsworth</a>, U.S. Supreme Court Chief Justice from <a href="/wiki/Connecticut" title="Connecticut">Connecticut</a></li>
-			<li><a href="/wiki/John_Jay" title="John Jay">John Jay</a>, Governor of <a href="/wiki/New_York" title="New York">New York</a></li>
-			<li><a href="/wiki/James_Iredell" title="James Iredell">James Iredell</a>, U.S. Supreme Court Justice from <a href="/wiki/North_Carolina" title="North Carolina">North Carolina</a></li>
-			<li><a href="/wiki/Samuel_Johnston" title="Samuel Johnston">Samuel Johnston</a>, former U.S. Senator from <a href="/wiki/North_Carolina" title="North Carolina">North Carolina</a></li>
-			<li><a href="/wiki/Charles_Cotesworth_Pinckney" title="Charles Cotesworth Pinckney">Charles Cotesworth Pinckney</a>, U.S. Minister to France from <a href="/wiki/South_Carolina" title="South Carolina">South Carolina</a></li>
-			</ul>	
+		<div class="col-md-9">
+			<div id="note">
+				<h2 contenteditable="true">The Election of 1796</h2>
+				<p class="section mousetrap" contenteditable="true">
+				The United States presidential election of 1796 was the 3rd quadrennial presidential election. It was held from Friday, November 4 to Wednesday, December 7, 1796. It was the first contested American presidential election and the only one in which a president and vice president were elected from opposing tickets. The ratification of the Twelfth Amendment to the United States Constitution made such a result unlikely in the future.
+				</p>
+				<ul class="section mousetrap" contenteditable="true">
+				<li> <a href="/wiki/John_Adams" title="John Adams">John Adams</a>, Vice President of the United States from <a href="/wiki/Massachusetts" title="Massachusetts">Massachusetts</a></li>
+				<li><a href="/wiki/Thomas_Pinckney" title="Thomas Pinckney">Thomas Pinckney</a>, former Governor of <a href="/wiki/South_Carolina" title="South Carolina">South Carolina</a></li>
+				<li><a href="/wiki/Oliver_Ellsworth" title="Oliver Ellsworth">Oliver Ellsworth</a>, U.S. Supreme Court Chief Justice from <a href="/wiki/Connecticut" title="Connecticut">Connecticut</a></li>
+				<li><a href="/wiki/John_Jay" title="John Jay">John Jay</a>, Governor of <a href="/wiki/New_York" title="New York">New York</a></li>
+				<li><a href="/wiki/James_Iredell" title="James Iredell">James Iredell</a>, U.S. Supreme Court Justice from <a href="/wiki/North_Carolina" title="North Carolina">North Carolina</a></li>
+				<li><a href="/wiki/Samuel_Johnston" title="Samuel Johnston">Samuel Johnston</a>, former U.S. Senator from <a href="/wiki/North_Carolina" title="North Carolina">North Carolina</a></li>
+				<li><a href="/wiki/Charles_Cotesworth_Pinckney" title="Charles Cotesworth Pinckney">Charles Cotesworth Pinckney</a>, U.S. Minister to France from <a href="/wiki/South_Carolina" title="South Carolina">South Carolina</a></li>
+				</ul>
+			</div>
+			<br>
+			<button type="button" class="btn btn-primary">Save and close</button>				
 		</div>
 	</div>
 	<div id="footer">
@@ -173,6 +173,7 @@
 		</ul>
 	</div>
 	<div id="chat">
+		<h3>Class Chat</h3>
 		<p><span class="username">Sally:</span> Did anyone hear what was it that made the election of 1796 unique?</p>
 		<p><span class="username">Bob:</span> I missed it too.</p>
 		<p><span class="username">Alice	:</span> It was the only one in which a president and vice president were elected from opposing tickets.</p>
