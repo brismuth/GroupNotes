@@ -1,7 +1,6 @@
 //var Universities = Meteor.Collections("universities");
 
 if (Meteor.isClient) {
-
   Router.configure({
     autoRender: false,
     notFoundTemplate: 'notFound',

@@ -10,3 +10,8 @@ preserve-inputs
 iron-router
 bootstrap-3
 select2
+accounts-ui
+accounts-base
+accounts-google
+accounts-password
+accounts-twitter

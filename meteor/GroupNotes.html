@@ -7,6 +7,7 @@
     <div class="header-right">
 			<div class="signin">
 	    	<form class="frmsignin" action="" method="post">
+          {{loginButtons}}
 					<span class="signintext">Username</span><input class="signininput" type="text" value="" name="username" />
 					<span class="signintext">Password</span><input class="signininput" type="password" value="" name="password" />
 					<input class="signinbutton" type="submit" value="Sign in" name="sign" />
@@ -47,10 +48,6 @@
 <template name="noteFinder">
 	<div class="getnote">
 	  <input class="front-field" type="hidden" placeholder="University" name="university" id="university" />
-	  <!--<select class="front-field" name="university2" id="university2">
-	  	<option value="byu">Brigham Young University</option>
-	  	<option value="uvu">Utah Valley University</option>
-		</select>!-->
 	  <input class="front-field" type="text" placeholder="Teacher" name="teacher" id="teacher" />
 	  <input class="front-field" type="text" placeholder="Class" name="class" id="class" />	
 		<div class="lubutton">
