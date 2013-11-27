@@ -1,0 +1,150 @@
+<head>
+  <title>Group Notes</title>
+</head>
+
+<body>
+  <div class="main-header">
+    <div class="header-right">
+			<div class="signin">
+	    	<form class="frmsignin" action="" method="post">
+					<span class="signintext">Username</span><input class="signininput" type="text" value="" name="username" />
+					<span class="signintext">Password</span><input class="signininput" type="password" value="" name="password" />
+					<input class="signinbutton" type="submit" value="Sign in" name="sign" />
+	    	</form>
+	    </div>
+	    <div class="register"><a href="register.html">Register</a></div>
+	  </div>
+	</div>
+	  <div class="main-body container">
+	  	{{renderRouter}}
+	  </div>
+	  <div class="main-footer text-center">
+	    {{> footer}}
+	  </div>
+	</div>
+</body>
+
+<template name="signin">
+  <div class="signin">
+  	<form class="frmsignin">
+      <div class="signintext">Sign in</div>
+      Username<br />
+      <input class="signininput" type="text" value="" name="username" /><br />
+      Password<br />
+      <input class="signininput" type="password" value="" name="password" /><br />
+      <div class="signinb">
+				<input class="signinbutton" type="submit" value="Sign in" name="sign" />
+      </div>
+      <div class="register">Or <a href="register.html">Register Here</a></div>
+  	</form>
+  </div>
+</template>
+
+<template name="home">
+	{{> noteFinder}}
+</template>
+
+<template name="noteFinder">
+	<div class="getnote">
+	  <input class="front-field" type="hidden" placeholder="University" name="university" id="university" />
+	  <!--<select class="front-field" name="university2" id="university2">
+	  	<option value="byu">Brigham Young University</option>
+	  	<option value="uvu">Utah Valley University</option>
+		</select>!-->
+	  <input class="front-field" type="text" placeholder="Teacher" name="teacher" id="teacher" />
+	  <input class="front-field" type="text" placeholder="Class" name="class" id="class" />	
+		<div class="lubutton">
+			<input type="submit" class="lookupbutton" value="Get Notes" name="notes" />
+		</div>
+	</div>
+</template>
+
+<template name="footer">
+	<ul id="footer-menu">
+		<li><a href="/">Home</a> | 
+		<li><a href="contact">Contact Us</a> | 
+		<li><a href="about-us">About us</a>
+	</ul>
+</template>
+
+<template name="about_us">
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-6">
+      <p>GroupNotes is a revolutionary way to take and share class notes. Tired of scrambling to takes notes on one concept while you miss an explanation of the next? Does the teacher go too fast to jot down everything? While you are taking notes on one thing, Billy is jotting down the next. Planning on being "sick" this Friday? No biggie! Just check out what Suzie wrote down from class, she's always there and always paying attention.<p>
+
+      <p>GroupNotes allows the students in a class to take notes together. Notes are stored in the cloud and are written by and shared with everybody in class. By working together, you can take more complete notes and learn more. Thanks to cutting-edge cloud storage technologies, everything can be seen at any time.</p>
+
+      <p>With GroupNotes, no worries!</p> 
+    </div>
+    <div class="col-md-4">
+    	
+    </div>
+    <div class="col-md-1">
+    </div>
+  </div>
+</template>
+
+<template name="home-user">
+	<div class="row">
+		<div class="col-md-4">
+  		<div class="CurrentNotes">
+				<h2>Your Classes</h2>
+				<select class="form-control" name="CurrentClasses" class="CurrentClasses" size="10">
+					<option>Class 1</option>
+		      <option>Class 2</option>
+		      <option>Class 3</option>
+		    </select>
+  		</div>
+    </div>
+    <div class="col-md-4">
+    	{{> note-finder}}
+    </div>
+   </div>
+</template>
+
+<template name="contact">
+	<form class="well">
+		<div class="container">
+      <div class="row">
+        <div class="form-group col-md-3">
+          <label>First Name</label>
+          <input class="form-control" placeholder="Your First Name" type="text">
+          <label>Last Name</label>
+          <input class="form-control" placeholder="Your Last Name" type="text">
+          <label>Email Address</label>
+          <input class="form-control" placeholder="Your email address" type="text">
+          <label>Subject</label>
+          <select class="form-control" id="subject" name="subject">
+              <option selected value="na">
+                  Choose One:
+              </option>
+
+              <option value="service">
+                  General Customer Service
+              </option>
+
+              <option value="suggestions">
+                  Suggestions
+              </option>
+
+              <option value="product">
+                  Product Support
+              </option>
+          </select>
+        </div>
+        <div class="form-group col-md-5">
+            <label>Message</label> 
+            <textarea  class="form-control" id="message" name="message" rows="10"></textarea>
+            <br>
+						<button class="btn btn-primary pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</template>
+
+<template name="notFound"> 
+	404 Page Not Found
+</template>

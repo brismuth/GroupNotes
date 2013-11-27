@@ -1,0 +1,160 @@
+/* General */
+
+body
+{
+    font-family: sans-serif;
+}
+
+.button
+{
+  background-color: green;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  border: 1px solid black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.main-header
+{
+  padding: 0px;
+  margin: 0px;
+  height: 80px;
+  border: 0px solid #ffffff;
+  background: #ddeecc url('mainlogo.png') no-repeat top left;
+  background-size: 210px 80px;
+}
+
+.header-right
+{
+  float: right;
+  height: 90px;
+  vertical-align: bottom;
+}
+
+.main-body
+{
+  padding-top: 25px;
+}
+
+#footer-menu li
+{
+  list-style: none;
+  display: inline;
+}
+
+#footer-menu li a
+{
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
+
+/* Login */
+
+.frmsignin
+{
+  float: right;
+}
+
+.signin
+{
+  border-width: 3px;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  vertical-align: bottom;
+}
+
+.register
+{
+  float:right;
+  margin-right: 12px;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+.signintext
+{
+  font-size: 11px;
+  
+}
+
+.signininput
+{
+   border-width: 1px;
+   border-color: black;
+   border-style: solid;
+   margin: 5px;
+   background-color: #eeffee;
+   width: 100px;
+}
+
+.signinbutton
+{
+  background-color: green;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-style: solid;  
+  border-width: 1px;
+  border-color: black;
+}
+
+.signinb
+{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Note Finder */
+
+.getnote .front-field
+{
+  font-size: 28px;
+  line-height: 33px;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+  border: 1px solid #AAA;
+  border-radius: 25px;
+  padding: 5px 5px 5px 15px;
+  margin: 14px 0px 0px 10px;
+}
+
+.getnote
+{
+  padding: 50px 0px 0px 0px;
+  height: 400px;
+  width: 500px;
+  margin: 0px auto 0px auto;
+}
+
+.lookupbutton
+{
+  margin: 14px 0 0 245px;
+  background-color: green;
+  color: white;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid green;
+}
+
+.lubutton
+{
+  margin: 0 auto;
+  text-align: center;
+}
+
