@@ -116,6 +116,11 @@ body
 
 /* Note Finder */
 
+.LandingVideo
+{
+  float: left;
+}
+
 .getnote .front-field
 {
   font-size: 28px;
@@ -131,10 +136,11 @@ body
 
 .getnote
 {
-  padding: 50px 0px 0px 0px;
+  float: left;
+  padding: 30px 0px 0px 0px;
   height: 400px;
   width: 500px;
-  margin: 0px auto 0px auto;
+  margin: 0px auto 0px 80px;
 }
 
 .lookupbutton
