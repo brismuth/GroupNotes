@@ -1,0 +1,9 @@
+run mongo to get into the database
+ 
+ 
+Admin username: gnadmin
+Admin password: groupnotes
+
+Database: groupnotes
+database username: gn
+database password: groupnotes
