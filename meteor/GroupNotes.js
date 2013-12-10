@@ -49,6 +49,7 @@ if (Meteor.isClient) {
     $('#university').change(function() {
       $('#teacher').removeAttr('disabled');
       $('#teacher').select2("enable", true);
+      $('#class').select2("enable", true);
     });
     $('#teacher').select2({
         query: function (query) {
