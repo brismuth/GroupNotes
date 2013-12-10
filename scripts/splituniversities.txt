@@ -1,0 +1,14 @@
+file = open('universitieslist.txt','r')
+output = open('universitiesjson.txt','w')
+
+
+for r in file:
+   s = r.split('-')
+   acronym = s[0].strip()
+   name = s[1].strip()
+   
+   output.write("{\n_id: ObjectId(),\n\"acronym\": \"" + acronym + "\",\n\"name\": \"" + name + "\"\n},\n")
+   
+
+file.close();
+output.close();

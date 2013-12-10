@@ -121,6 +121,16 @@ body
   float: left;
 }
 
+.ff
+{
+  font-size: 30px;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+  padding: 5px 5px 5px 15px;
+  margin: 14px 0px 0px 10px;
+}
+
 .getnote .front-field
 {
   font-size: 28px;

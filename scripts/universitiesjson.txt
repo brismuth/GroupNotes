@@ -1,0 +1,2480 @@
+[{
+_id: ObjectId(),
+"acronym": "AECOM",
+"name": "Albert Einstein College of Medicine"
+},
+{
+_id: ObjectId(),
+"acronym": "Air Force",
+"name": "United States Air Force Academy"
+},
+{
+_id: ObjectId(),
+"acronym": "Annapolis",
+"name": "U.S. Naval Academy"
+},
+{
+_id: ObjectId(),
+"acronym": "A&M",
+"name": "Texas A&M University"
+},
+{
+_id: ObjectId(),
+"acronym": "A&T",
+"name": "North Carolina A&T State University"
+},
+{
+_id: ObjectId(),
+"acronym": "Apprentice School",
+"name": "Newport News"
+},
+{
+_id: ObjectId(),
+"acronym": "Army",
+"name": "U.S. Military Academy"
+},
+{
+_id: ObjectId(),
+"acronym": "ASU",
+"name": "Alabama State University"
+},
+{
+_id: ObjectId(),
+"acronym": "ASU",
+"name": "Albany State University"
+},
+{
+_id: ObjectId(),
+"acronym": "ASU",
+"name": "Alcorn State University"
+},
+{
+_id: ObjectId(),
+"acronym": "ASU",
+"name": "Angelo State University"
+},
+{
+_id: ObjectId(),
+"acronym": "ASU",
+"name": "Appalachian State University"
+},
+{
+_id: ObjectId(),
+"acronym": "ASU",
+"name": "Arizona State University"
+},
+{
+_id: ObjectId(),
+"acronym": "ASU",
+"name": "Arkansas State University"
+},
+{
+_id: ObjectId(),
+"acronym": "ASU",
+"name": "Augusta State University"
+},
+{
+_id: ObjectId(),
+"acronym": "AU",
+"name": "Adelphi University"
+},
+{
+_id: ObjectId(),
+"acronym": "AU",
+"name": "Alfred University"
+},
+{
+_id: ObjectId(),
+"acronym": "AU",
+"name": "American University"
+},
+{
+_id: ObjectId(),
+"acronym": "AU",
+"name": "Anderson University"
+},
+{
+_id: ObjectId(),
+"acronym": "AU",
+"name": "Asbury University"
+},
+{
+_id: ObjectId(),
+"acronym": "AU",
+"name": "Auburn University"
+},
+{
+_id: ObjectId(),
+"acronym": "AU",
+"name": "Ashford University"
+},
+{
+_id: ObjectId(),
+"acronym": "AUM",
+"name": "Auburn University Montgomery"
+},
+{
+_id: ObjectId(),
+"acronym": "Bama",
+"name": "University of Alabama"
+},
+{
+_id: ObjectId(),
+"acronym": "BC",
+"name": "Boston College"
+},
+{
+_id: ObjectId(),
+"acronym": "Berkeley",
+"name": "University of California"
+},
+{
+_id: ObjectId(),
+"acronym": "Berkeley",
+"name": "Berkeley"
+},
+{
+_id: ObjectId(),
+"acronym": "BG",
+"name": "Bowling Green State University"
+},
+{
+_id: ObjectId(),
+"acronym": "BJU",
+"name": "Bob Jones University"
+},
+{
+_id: ObjectId(),
+"acronym": "BMC",
+"name": "Bryn Mawr College"
+},
+{
+_id: ObjectId(),
+"acronym": "Bona",
+"name": "St. Bonaventure University"
+},
+{
+_id: ObjectId(),
+"acronym": "Brown",
+"name": "Brown University"
+},
+{
+_id: ObjectId(),
+"acronym": "BSC",
+"name": "Birmingham"
+},
+{
+_id: ObjectId(),
+"acronym": "BSU",
+"name": "Ball State University"
+},
+{
+_id: ObjectId(),
+"acronym": "BSU",
+"name": "Boise State University"
+},
+{
+_id: ObjectId(),
+"acronym": "BU",
+"name": "Baylor University"
+},
+{
+_id: ObjectId(),
+"acronym": "BU",
+"name": "Binghamton University"
+},
+{
+_id: ObjectId(),
+"acronym": "BU",
+"name": "Biola University"
+},
+{
+_id: ObjectId(),
+"acronym": "BU",
+"name": "Boston University"
+},
+{
+_id: ObjectId(),
+"acronym": "BU",
+"name": "Bradley University"
+},
+{
+_id: ObjectId(),
+"acronym": "BU",
+"name": "Butler University"
+},
+{
+_id: ObjectId(),
+"acronym": "BYU",
+"name": "Brigham Young University"
+},
+{
+_id: ObjectId(),
+"acronym": "C of C",
+"name": "College of Charleston"
+},
+{
+_id: ObjectId(),
+"acronym": "Cal",
+"name": "University of California"
+},
+{
+_id: ObjectId(),
+"acronym": "Cal",
+"name": "Berkeley"
+},
+{
+_id: ObjectId(),
+"acronym": "Cal Poly",
+"name": "California Polytechnic State University"
+},
+{
+_id: ObjectId(),
+"acronym": "Cal Poly",
+"name": "San Luis Obispo"
+},
+{
+_id: ObjectId(),
+"acronym": "Cal Poly Pomona",
+"name": "California State Polytechnic University"
+},
+{
+_id: ObjectId(),
+"acronym": "Cal Poly Pomona",
+"name": "Pomona"
+},
+{
+_id: ObjectId(),
+"acronym": "Caltech",
+"name": "California Institute of Technology"
+},
+{
+_id: ObjectId(),
+"acronym": "Cal U, CUP",
+"name": "California University of Pennsylvania"
+},
+{
+_id: ObjectId(),
+"acronym": "Cal State",
+"name": "California State University"
+},
+{
+_id: ObjectId(),
+"acronym": "Carolina",
+"name": "University of North Carolina at Chapel Hill"
+},
+{
+_id: ObjectId(),
+"acronym": "Carolina",
+"name": "University of South Carolina"
+},
+{
+_id: ObjectId(),
+"acronym": "Central",
+"name": "Central State University"
+},
+{
+_id: ObjectId(),
+"acronym": "Central",
+"name": "North Carolina Central University"
+},
+{
+_id: ObjectId(),
+"acronym": "CCNY",
+"name": "City College of New York"
+},
+{
+_id: ObjectId(),
+"acronym": "CCSU",
+"name": "Central Connecticut State University"
+},
+{
+_id: ObjectId(),
+"acronym": "CCU",
+"name": "Coastal Carolina University"
+},
+{
+_id: ObjectId(),
+"acronym": "CCV",
+"name": "Community College of Vermont"
+},
+{
+_id: ObjectId(),
+"acronym": "Chapel Hill",
+"name": "University of North Carolina at Chapel Hill"
+},
+{
+_id: ObjectId(),
+"acronym": "Charlotte",
+"name": "University of North Carolina at Charlotte"
+},
+{
+_id: ObjectId(),
+"acronym": "Chatt/Chattanooga",
+"name": "University of Tennessee at Chattanooga"
+},
+{
+_id: ObjectId(),
+"acronym": "Chico State",
+"name": "California State University"
+},
+{
+_id: ObjectId(),
+"acronym": "Chico State",
+"name": "Chico"
+},
+{
+_id: ObjectId(),
+"acronym": "CMSU",
+"name": "Central Missouri State University"
+},
+{
+_id: ObjectId(),
+"acronym": "City Tech",
+"name": "New York City College of Technology"
+},
+{
+_id: ObjectId(),
+"acronym": "CMC",
+"name": "Claremont McKenna College"
+},
+{
+_id: ObjectId(),
+"acronym": "CMU",
+"name": "Carnegie Mellon University"
+},
+{
+_id: ObjectId(),
+"acronym": "CMU",
+"name": "Central Michigan University"
+},
+{
+_id: ObjectId(),
+"acronym": "CNU",
+"name": "Christopher Newport University"
+},
+{
+_id: ObjectId(),
+"acronym": "Coast Guard",
+"name": "United States Coast Guard Academy"
+},
+{
+_id: ObjectId(),
+"acronym": "College Park",
+"name": "University of Maryland"
+},
+{
+_id: ObjectId(),
+"acronym": "College Park",
+"name": "College Park"
+},
+{
+_id: ObjectId(),
+"acronym": "CSB/SJU",
+"name": "College of Saint Benedict/Saint John's University"
+},
+{
+_id: ObjectId(),
+"acronym": "CSC",
+"name": "Castleton State College"
+},
+{
+_id: ObjectId(),
+"acronym": "CSE",
+"name": "College of Saint Elizabeth"
+},
+{
+_id: ObjectId(),
+"acronym": "CSI",
+"name": "College of Staten Island"
+},
+{
+_id: ObjectId(),
+"acronym": "CSU",
+"name": "California State University"
+},
+{
+_id: ObjectId(),
+"acronym": "CSU",
+"name": "Cleveland State University"
+},
+{
+_id: ObjectId(),
+"acronym": "CSU",
+"name": "Colorado State University"
+},
+{
+_id: ObjectId(),
+"acronym": "CSU",
+"name": "Clayton State University"
+},
+{
+_id: ObjectId(),
+"acronym": "CSUEB",
+"name": "California State University"
+},
+{
+_id: ObjectId(),
+"acronym": "CSUEB",
+"name": "East Bay (formerly California State University"
+},
+{
+_id: ObjectId(),
+"acronym": "CSUEB",
+"name": "Hayward)"
+},
+{
+_id: ObjectId(),
+"acronym": "CSULA",
+"name": "California State University"
+},
+{
+_id: ObjectId(),
+"acronym": "CSULA",
+"name": "Los Angeles"
+},
+{
+_id: ObjectId(),
+"acronym": "CSU",
+"name": "Pueblo"
+},
+{
+_id: ObjectId(),
+"acronym": "CSUS",
+"name": "California State University"
+},
+{
+_id: ObjectId(),
+"acronym": "CSUS",
+"name": "Sacramento"
+},
+{
+_id: ObjectId(),
+"acronym": "CU",
+"name": "Chapman University"
+},
+{
+_id: ObjectId(),
+"acronym": "CU",
+"name": "Clemson University"
+},
+{
+_id: ObjectId(),
+"acronym": "CU",
+"name": "University of Colorado at Boulder"
+},
+{
+_id: ObjectId(),
+"acronym": "CU",
+"name": "University of Colorado system"
+},
+{
+_id: ObjectId(),
+"acronym": "CU",
+"name": "Columbia University"
+},
+{
+_id: ObjectId(),
+"acronym": "CU",
+"name": "Cornell University"
+},
+{
+_id: ObjectId(),
+"acronym": "CU",
+"name": "Creighton University"
+},
+{
+_id: ObjectId(),
+"acronym": "CUNY",
+"name": "City University of New York"
+},
+{
+_id: ObjectId(),
+"acronym": "Cuse",
+"name": "Syracuse University"
+},
+{
+_id: ObjectId(),
+"acronym": "DC",
+"name": "Davidson College"
+},
+{
+_id: ObjectId(),
+"acronym": "DPU",
+"name": "DePaul University"
+},
+{
+_id: ObjectId(),
+"acronym": "DU",
+"name": "Denison University"
+},
+{
+_id: ObjectId(),
+"acronym": "DU",
+"name": "University of Denver"
+},
+{
+_id: ObjectId(),
+"acronym": "DU",
+"name": "Drexel University"
+},
+{
+_id: ObjectId(),
+"acronym": "DU",
+"name": "Duke University"
+},
+{
+_id: ObjectId(),
+"acronym": "DU",
+"name": "Duquesne University"
+},
+{
+_id: ObjectId(),
+"acronym": "ECU",
+"name": "East Carolina University"
+},
+{
+_id: ObjectId(),
+"acronym": "EMU",
+"name": "Eastern Michigan University"
+},
+{
+_id: ObjectId(),
+"acronym": "ENC",
+"name": "Eastern Nazarene College"
+},
+{
+_id: ObjectId(),
+"acronym": "ETSU",
+"name": "East Tennessee State University"
+},
+{
+_id: ObjectId(),
+"acronym": "EWU",
+"name": "Eastern Washington University"
+},
+{
+_id: ObjectId(),
+"acronym": "FC",
+"name": "Founders College"
+},
+{
+_id: ObjectId(),
+"acronym": "F&M",
+"name": "Franklin & Marshall College"
+},
+{
+_id: ObjectId(),
+"acronym": "FAMU",
+"name": "Florida A&M University"
+},
+{
+_id: ObjectId(),
+"acronym": "FAU",
+"name": "Florida Atlantic University"
+},
+{
+_id: ObjectId(),
+"acronym": "FDU",
+"name": "Fairleigh Dickinson University"
+},
+{
+_id: ObjectId(),
+"acronym": "FGCU",
+"name": "Florida Gulf Coast University"
+},
+{
+_id: ObjectId(),
+"acronym": "FIU",
+"name": "Florida International University"
+},
+{
+_id: ObjectId(),
+"acronym": "Fresno State",
+"name": "California State University"
+},
+{
+_id: ObjectId(),
+"acronym": "Fresno State",
+"name": "Fresno"
+},
+{
+_id: ObjectId(),
+"acronym": "FSU",
+"name": "Fayetteville State University"
+},
+{
+_id: ObjectId(),
+"acronym": "FSU",
+"name": "Ferris State University"
+},
+{
+_id: ObjectId(),
+"acronym": "FSU",
+"name": "Fitchburg State University"
+},
+{
+_id: ObjectId(),
+"acronym": "FSU",
+"name": "Florida State University"
+},
+{
+_id: ObjectId(),
+"acronym": "FSU",
+"name": "Framingham State University"
+},
+{
+_id: ObjectId(),
+"acronym": "FSU",
+"name": "Frostburg State University"
+},
+{
+_id: ObjectId(),
+"acronym": "GB",
+"name": "University of Wisconsinâ€“Green Bay"
+},
+{
+_id: ObjectId(),
+"acronym": "GC&SU",
+"name": "Georgia College & State University"
+},
+{
+_id: ObjectId(),
+"acronym": "GCU",
+"name": "Grand Canyon University"
+},
+{
+_id: ObjectId(),
+"acronym": "Georgia Tech",
+"name": "Georgia Institute of Technology"
+},
+{
+_id: ObjectId(),
+"acronym": "GMU",
+"name": "George Mason University"
+},
+{
+_id: ObjectId(),
+"acronym": "GSU",
+"name": "Georgia Southern University"
+},
+{
+_id: ObjectId(),
+"acronym": "GSU",
+"name": "Georgia State University"
+},
+{
+_id: ObjectId(),
+"acronym": "GS",
+"name": "Georgia Southern University"
+},
+{
+_id: ObjectId(),
+"acronym": "GT",
+"name": "Georgia Institute of Technology"
+},
+{
+_id: ObjectId(),
+"acronym": "GVSU",
+"name": "Grand Valley State University"
+},
+{
+_id: ObjectId(),
+"acronym": "GW, GWU",
+"name": "George Washington University"
+},
+{
+_id: ObjectId(),
+"acronym": "GW, GWU",
+"name": "Gardner Webb University"
+},
+{
+_id: ObjectId(),
+"acronym": "HIU",
+"name": "Hampton University (formerly Hampton Institute)"
+},
+{
+_id: ObjectId(),
+"acronym": "HU",
+"name": "Howard University"
+},
+{
+_id: ObjectId(),
+"acronym": "HU",
+"name": "Hampton University"
+},
+{
+_id: ObjectId(),
+"acronym": "IC",
+"name": "Ithaca College"
+},
+{
+_id: ObjectId(),
+"acronym": "IIT",
+"name": "Illinois Institute of Technology"
+},
+{
+_id: ObjectId(),
+"acronym": "IPFW",
+"name": "Indiana University"
+},
+{
+_id: ObjectId(),
+"acronym": "ISU",
+"name": "Idaho State University"
+},
+{
+_id: ObjectId(),
+"acronym": "ISU",
+"name": "Illinois State University"
+},
+{
+_id: ObjectId(),
+"acronym": "ISU",
+"name": "Indiana State University"
+},
+{
+_id: ObjectId(),
+"acronym": "ISU",
+"name": "Iowa State University"
+},
+{
+_id: ObjectId(),
+"acronym": "IU/IUB",
+"name": "Indiana University Bloomington"
+},
+{
+_id: ObjectId(),
+"acronym": "IUP",
+"name": "Indiana University of Pennsylvania"
+},
+{
+_id: ObjectId(),
+"acronym": "IUPUI",
+"name": "Indiana University"
+},
+{
+_id: ObjectId(),
+"acronym": "JHU",
+"name": "Johns Hopkins University"
+},
+{
+_id: ObjectId(),
+"acronym": "JMU",
+"name": "James Madison University"
+},
+{
+_id: ObjectId(),
+"acronym": "JWU",
+"name": "Johnson and Wales University"
+},
+{
+_id: ObjectId(),
+"acronym": "JSC",
+"name": "Johnson State College"
+},
+{
+_id: ObjectId(),
+"acronym": "JSU",
+"name": "Jackson State University"
+},
+{
+_id: ObjectId(),
+"acronym": "JSU",
+"name": "Jacksonville State University"
+},
+{
+_id: ObjectId(),
+"acronym": "K",
+"name": "State"
+},
+{
+_id: ObjectId(),
+"acronym": "KSU",
+"name": "Kansas State University"
+},
+{
+_id: ObjectId(),
+"acronym": "KSU",
+"name": "Kennesaw State University"
+},
+{
+_id: ObjectId(),
+"acronym": "KSU",
+"name": "Kent State University"
+},
+{
+_id: ObjectId(),
+"acronym": "KSU",
+"name": "Kentucky State University"
+},
+{
+_id: ObjectId(),
+"acronym": "KU",
+"name": "University of Kansas"
+},
+{
+_id: ObjectId(),
+"acronym": "LA Tech",
+"name": "Louisiana Tech University"
+},
+{
+_id: ObjectId(),
+"acronym": "LC",
+"name": "Louisburg College"
+},
+{
+_id: ObjectId(),
+"acronym": "LHU",
+"name": "Lock Haven University"
+},
+{
+_id: ObjectId(),
+"acronym": "LIU",
+"name": "Long Island University"
+},
+{
+_id: ObjectId(),
+"acronym": "LMU",
+"name": "Lincoln Memorial University"
+},
+{
+_id: ObjectId(),
+"acronym": "LMU",
+"name": "Loyola Marymount University"
+},
+{
+_id: ObjectId(),
+"acronym": "Long Beach State",
+"name": "California State University"
+},
+{
+_id: ObjectId(),
+"acronym": "Long Beach State",
+"name": "Long Beach"
+},
+{
+_id: ObjectId(),
+"acronym": "LSC",
+"name": "Lyndon State College"
+},
+{
+_id: ObjectId(),
+"acronym": "LSU",
+"name": "Louisiana State University"
+},
+{
+_id: ObjectId(),
+"acronym": "LSSU",
+"name": "Lake Superior State University"
+},
+{
+_id: ObjectId(),
+"acronym": "LU",
+"name": "Liberty University"
+},
+{
+_id: ObjectId(),
+"acronym": "LUC",
+"name": "Loyola University Chicago"
+},
+{
+_id: ObjectId(),
+"acronym": "Madison",
+"name": "James Madison University"
+},
+{
+_id: ObjectId(),
+"acronym": "Madison",
+"name": "University of Wisconsinâ€“Madison"
+},
+{
+_id: ObjectId(),
+"acronym": "Mason",
+"name": "George Mason University"
+},
+{
+_id: ObjectId(),
+"acronym": "MCLA",
+"name": "Massachusetts College of Liberal Arts"
+},
+{
+_id: ObjectId(),
+"acronym": "Merchant Marine, Kings Point",
+"name": "U.S. Merchant Marine Academy"
+},
+{
+_id: ObjectId(),
+"acronym": "Metro State",
+"name": "Metropolitan State College of Denver"
+},
+{
+_id: ObjectId(),
+"acronym": "MHC, MoHo",
+"name": "Mount Holyoke College"
+},
+{
+_id: ObjectId(),
+"acronym": "Milwaukee",
+"name": "University of Wisconsinâ€“Milwaukee"
+},
+{
+_id: ObjectId(),
+"acronym": "Missouri S&T",
+"name": "Missouri University of Science and Technology"
+},
+{
+_id: ObjectId(),
+"acronym": "MIT",
+"name": "Massachusetts Institute of Technology"
+},
+{
+_id: ObjectId(),
+"acronym": "Mizzou",
+"name": "University of Missouri"
+},
+{
+_id: ObjectId(),
+"acronym": "Mt. SAC",
+"name": "Mt. San Antonio College"
+},
+{
+_id: ObjectId(),
+"acronym": "MSU",
+"name": "Michigan State University"
+},
+{
+_id: ObjectId(),
+"acronym": "MSU",
+"name": "Mississippi State University"
+},
+{
+_id: ObjectId(),
+"acronym": "MSU",
+"name": "Missouri State University"
+},
+{
+_id: ObjectId(),
+"acronym": "MSU",
+"name": "Morehead State University"
+},
+{
+_id: ObjectId(),
+"acronym": "MSU",
+"name": "Murray State University"
+},
+{
+_id: ObjectId(),
+"acronym": "MSU",
+"name": "Montana State University"
+},
+{
+_id: ObjectId(),
+"acronym": "MSU",
+"name": "Montclair State University"
+},
+{
+_id: ObjectId(),
+"acronym": "MSU",
+"name": "Mountain State University"
+},
+{
+_id: ObjectId(),
+"acronym": "MTSU",
+"name": "Middle Tennessee State University"
+},
+{
+_id: ObjectId(),
+"acronym": "MTU",
+"name": "Michigan Technological University"
+},
+{
+_id: ObjectId(),
+"acronym": "MU",
+"name": "Miami University"
+},
+{
+_id: ObjectId(),
+"acronym": "MU",
+"name": "Marymount University"
+},
+{
+_id: ObjectId(),
+"acronym": "MU",
+"name": "University of Missouri"
+},
+{
+_id: ObjectId(),
+"acronym": "MVSU",
+"name": "Mississippi Valley State University"
+},
+{
+_id: ObjectId(),
+"acronym": "MUW",
+"name": "Mississippi University for Women"
+},
+{
+_id: ObjectId(),
+"acronym": "Navy",
+"name": "U.S. Naval Academy"
+},
+{
+_id: ObjectId(),
+"acronym": "NAU",
+"name": "Northern Arizona University"
+},
+{
+_id: ObjectId(),
+"acronym": "NCCU",
+"name": "North Carolina Central University"
+},
+{
+_id: ObjectId(),
+"acronym": "NCSU",
+"name": "North Carolina State University"
+},
+{
+_id: ObjectId(),
+"acronym": "NC A&T",
+"name": "North Carolina A&T State University"
+},
+{
+_id: ObjectId(),
+"acronym": "ND",
+"name": "University of North Dakota"
+},
+{
+_id: ObjectId(),
+"acronym": "ND",
+"name": "University of Notre Dame"
+},
+{
+_id: ObjectId(),
+"acronym": "NDSU",
+"name": "North Dakota State University"
+},
+{
+_id: ObjectId(),
+"acronym": "New College/NCF",
+"name": "New College of Florida"
+},
+{
+_id: ObjectId(),
+"acronym": "NIU",
+"name": "Northern Illinois University"
+},
+{
+_id: ObjectId(),
+"acronym": "NMSU",
+"name": "New Mexico State University"
+},
+{
+_id: ObjectId(),
+"acronym": "NMU",
+"name": "Northern Michigan University"
+},
+{
+_id: ObjectId(),
+"acronym": "Nova",
+"name": "Northern Virginia Community College"
+},
+{
+_id: ObjectId(),
+"acronym": "Nova",
+"name": "Villanova University"
+},
+{
+_id: ObjectId(),
+"acronym": "NSU",
+"name": "Norfolk State University"
+},
+{
+_id: ObjectId(),
+"acronym": "NSU",
+"name": "Northern State University (South Dakota)"
+},
+{
+_id: ObjectId(),
+"acronym": "NSU",
+"name": "Northeastern State University (Oklahoma)"
+},
+{
+_id: ObjectId(),
+"acronym": "NSU",
+"name": "Northwestern State University (Louisiana)"
+},
+{
+_id: ObjectId(),
+"acronym": "NSU",
+"name": "Nova Southeastern University"
+},
+{
+_id: ObjectId(),
+"acronym": "NU",
+"name": "Northeastern University"
+},
+{
+_id: ObjectId(),
+"acronym": "NU",
+"name": "University of Nebraska"
+},
+{
+_id: ObjectId(),
+"acronym": "NU",
+"name": "Niagara University, Northwestern University, Norwich University"
+},
+{
+_id: ObjectId(),
+"acronym": "NYIT",
+"name": "New York Institute of Technology; New York Tech"
+},
+{
+_id: ObjectId(),
+"acronym": "NYMC",
+"name": "New York Medical College"
+},
+{
+_id: ObjectId(),
+"acronym": "NYU",
+"name": "New York University"
+},
+{
+_id: ObjectId(),
+"acronym": "OC",
+"name": "Oklahoma Christian University"
+},
+{
+_id: ObjectId(),
+"acronym": "OCC",
+"name": "Orange Coast College"
+},
+{
+_id: ObjectId(),
+"acronym": "OCU",
+"name": "Oklahoma City University"
+},
+{
+_id: ObjectId(),
+"acronym": "ODU",
+"name": "Ohio Dominican University"
+},
+{
+_id: ObjectId(),
+"acronym": "ODU",
+"name": "Old Dominion University"
+},
+{
+_id: ObjectId(),
+"acronym": "OIT",
+"name": "Oregon Institute of Technology"
+},
+{
+_id: ObjectId(),
+"acronym": "Ole Miss",
+"name": "University of Mississippi"
+},
+{
+_id: ObjectId(),
+"acronym": "ONU",
+"name": "Ohio Northern University"
+},
+{
+_id: ObjectId(),
+"acronym": "ORU",
+"name": "Oral Roberts University"
+},
+{
+_id: ObjectId(),
+"acronym": "OSU",
+"name": "Ohio State University"
+},
+{
+_id: ObjectId(),
+"acronym": "OSU",
+"name": "Oklahoma State University"
+},
+{
+_id: ObjectId(),
+"acronym": "OSU",
+"name": "Oregon State University"
+},
+{
+_id: ObjectId(),
+"acronym": "OU",
+"name": "Oakland University"
+},
+{
+_id: ObjectId(),
+"acronym": "OU",
+"name": "Ohio University"
+},
+{
+_id: ObjectId(),
+"acronym": "OU",
+"name": "University of Oklahoma"
+},
+{
+_id: ObjectId(),
+"acronym": "OU",
+"name": "Oakwood University"
+},
+{
+_id: ObjectId(),
+"acronym": "Oxy",
+"name": "Occidental College"
+},
+{
+_id: ObjectId(),
+"acronym": "Pacific",
+"name": "University of the Pacific"
+},
+{
+_id: ObjectId(),
+"acronym": "PC",
+"name": "Providence College"
+},
+{
+_id: ObjectId(),
+"acronym": "PCC",
+"name": "Pasadena City College"
+},
+{
+_id: ObjectId(),
+"acronym": "PCC",
+"name": "Pensacola Christian College"
+},
+{
+_id: ObjectId(),
+"acronym": "PCC",
+"name": "Pima Community College"
+},
+{
+_id: ObjectId(),
+"acronym": "PCC",
+"name": "Polk Community College"
+},
+{
+_id: ObjectId(),
+"acronym": "PCC",
+"name": "Portland Community College"
+},
+{
+_id: ObjectId(),
+"acronym": "PCC",
+"name": "Pueblo Community College"
+},
+{
+_id: ObjectId(),
+"acronym": "Penn",
+"name": "University of Pennsylvania"
+},
+{
+_id: ObjectId(),
+"acronym": "Penn State",
+"name": "Pennsylvania State University"
+},
+{
+_id: ObjectId(),
+"acronym": "Pitt",
+"name": "University of Pittsburgh"
+},
+{
+_id: ObjectId(),
+"acronym": "PLNU",
+"name": "Point Loma Nazarene University"
+},
+{
+_id: ObjectId(),
+"acronym": "PSU",
+"name": "Pennsylvania State University"
+},
+{
+_id: ObjectId(),
+"acronym": "PSU",
+"name": "Portland State University"
+},
+{
+_id: ObjectId(),
+"acronym": "PTS",
+"name": "Princeton Theological Seminary"
+},
+{
+_id: ObjectId(),
+"acronym": "PVAMU",
+"name": "Prairie View A&M University"
+},
+{
+_id: ObjectId(),
+"acronym": "QU",
+"name": "Quinnipiac University"
+},
+{
+_id: ObjectId(),
+"acronym": "Reserve",
+"name": "Case Western Reserve University"
+},
+{
+_id: ObjectId(),
+"acronym": "RHIT",
+"name": "Rose"
+},
+{
+_id: ObjectId(),
+"acronym": "RIC",
+"name": "Rhode Island College"
+},
+{
+_id: ObjectId(),
+"acronym": "RISD",
+"name": "Rhode Island School of Design"
+},
+{
+_id: ObjectId(),
+"acronym": "RIT",
+"name": "Rochester Institute of Technology"
+},
+{
+_id: ObjectId(),
+"acronym": "R",
+"name": "MWC"
+},
+{
+_id: ObjectId(),
+"acronym": "RPI",
+"name": "Rensselaer Polytechnic Institute"
+},
+{
+_id: ObjectId(),
+"acronym": "RU",
+"name": "Rutgers University"
+},
+{
+_id: ObjectId(),
+"acronym": "RWU",
+"name": "Roger Williams University"
+},
+{
+_id: ObjectId(),
+"acronym": "Sacramento State/Sac State",
+"name": "California State University, Sacramento"
+},
+{
+_id: ObjectId(),
+"acronym": "SC",
+"name": "University of Southern California"
+},
+{
+_id: ObjectId(),
+"acronym": "SC",
+"name": "University of South Carolina"
+},
+{
+_id: ObjectId(),
+"acronym": "SCU",
+"name": "Santa Clara University"
+},
+{
+_id: ObjectId(),
+"acronym": "SCSU",
+"name": "South Carolina State University"
+},
+{
+_id: ObjectId(),
+"acronym": "SCSU",
+"name": "Southern Connecticut State University"
+},
+{
+_id: ObjectId(),
+"acronym": "SDSM&T",
+"name": "South Dakota School of Mines and Technology"
+},
+{
+_id: ObjectId(),
+"acronym": "SDSU",
+"name": "South Dakota State University"
+},
+{
+_id: ObjectId(),
+"acronym": "SDSU",
+"name": "San Diego State University"
+},
+{
+_id: ObjectId(),
+"acronym": "SFSU",
+"name": "San Francisco State University"
+},
+{
+_id: ObjectId(),
+"acronym": "SEMo",
+"name": "Southeast Missouri State University"
+},
+{
+_id: ObjectId(),
+"acronym": "Sewanee",
+"name": "University of the South"
+},
+{
+_id: ObjectId(),
+"acronym": "SHC",
+"name": "Spring Hill College"
+},
+{
+_id: ObjectId(),
+"acronym": "SIU, SIUC",
+"name": "Southern Illinois University Carbondale"
+},
+{
+_id: ObjectId(),
+"acronym": "SIUE",
+"name": "Southern Illinois University Edwardsville"
+},
+{
+_id: ObjectId(),
+"acronym": "SJC",
+"name": "St. John's College"
+},
+{
+_id: ObjectId(),
+"acronym": "SJFC",
+"name": "St. John Fisher College"
+},
+{
+_id: ObjectId(),
+"acronym": "SJSU",
+"name": "San Jose State University"
+},
+{
+_id: ObjectId(),
+"acronym": "SJU",
+"name": "Saint Joseph's University, St. John's University (NY)"
+},
+{
+_id: ObjectId(),
+"acronym": "SLU",
+"name": "Saint Louis University"
+},
+{
+_id: ObjectId(),
+"acronym": "SLU",
+"name": "St. Lawrence University"
+},
+{
+_id: ObjectId(),
+"acronym": "SMC",
+"name": "St. Mary's College (CA)"
+},
+{
+_id: ObjectId(),
+"acronym": "SMU",
+"name": "Southern Methodist University"
+},
+{
+_id: ObjectId(),
+"acronym": "SOSU",
+"name": "Southeastern Oklahoma State University"
+},
+{
+_id: ObjectId(),
+"acronym": "SPU",
+"name": "Seattle Pacific University"
+},
+{
+_id: ObjectId(),
+"acronym": "SRU",
+"name": "Slippery Rock University of Pennsylvania"
+},
+{
+_id: ObjectId(),
+"acronym": "Stanislaus State/Stan State",
+"name": "California State University, Stanislaus"
+},
+{
+_id: ObjectId(),
+"acronym": "SSU",
+"name": "Savannah State University"
+},
+{
+_id: ObjectId(),
+"acronym": "SSU",
+"name": "California State University"
+},
+{
+_id: ObjectId(),
+"acronym": "SSU",
+"name": "Sonoma"
+},
+{
+_id: ObjectId(),
+"acronym": "SU",
+"name": "Shenandoah University"
+},
+{
+_id: ObjectId(),
+"acronym": "SU",
+"name": "Southern University"
+},
+{
+_id: ObjectId(),
+"acronym": "SU",
+"name": "Stanford University"
+},
+{
+_id: ObjectId(),
+"acronym": "SU",
+"name": "Susquehanna University"
+},
+{
+_id: ObjectId(),
+"acronym": "SU",
+"name": "Syracuse University"
+},
+{
+_id: ObjectId(),
+"acronym": "SUU",
+"name": "Southern Utah University"
+},
+{
+_id: ObjectId(),
+"acronym": "SUNY",
+"name": "State University of New York system"
+},
+{
+_id: ObjectId(),
+"acronym": "TAMU",
+"name": "Texas A&M University"
+},
+{
+_id: ObjectId(),
+"acronym": "TCNJ",
+"name": "The College of New Jersey"
+},
+{
+_id: ObjectId(),
+"acronym": "TCU",
+"name": "Texas Christian University"
+},
+{
+_id: ObjectId(),
+"acronym": "TSU",
+"name": "Tarleton State University"
+},
+{
+_id: ObjectId(),
+"acronym": "TSU",
+"name": "Tennessee State University"
+},
+{
+_id: ObjectId(),
+"acronym": "TSU",
+"name": "Texas Southern University"
+},
+{
+_id: ObjectId(),
+"acronym": "TSU",
+"name": "Truman State University"
+},
+{
+_id: ObjectId(),
+"acronym": "TTU",
+"name": "Texas Tech University"
+},
+{
+_id: ObjectId(),
+"acronym": "TU",
+"name": "Temple University"
+},
+{
+_id: ObjectId(),
+"acronym": "TU",
+"name": "Towson University"
+},
+{
+_id: ObjectId(),
+"acronym": "TU",
+"name": "Tulane University"
+},
+{
+_id: ObjectId(),
+"acronym": "TU",
+"name": "University of Tulsa"
+},
+{
+_id: ObjectId(),
+"acronym": "TxSt",
+"name": "Texas State Universityâ€“San Marcos"
+},
+{
+_id: ObjectId(),
+"acronym": "The U",
+"name": "University of Miami"
+},
+{
+_id: ObjectId(),
+"acronym": "The U",
+"name": "University of Minnesota"
+},
+{
+_id: ObjectId(),
+"acronym": "The U",
+"name": "University of Utah"
+},
+{
+_id: ObjectId(),
+"acronym": "The U",
+"name": "University of Washington"
+},
+{
+_id: ObjectId(),
+"acronym": "U of A",
+"name": "University of Arizona"
+},
+{
+_id: ObjectId(),
+"acronym": "U of A",
+"name": "University of Arkansas"
+},
+{
+_id: ObjectId(),
+"acronym": "UA",
+"name": "University of Alabama"
+},
+{
+_id: ObjectId(),
+"acronym": "UAA",
+"name": "University of Alaska Anchorage"
+},
+{
+_id: ObjectId(),
+"acronym": "UAB",
+"name": "University of Alabama at Birmingham"
+},
+{
+_id: ObjectId(),
+"acronym": "UAF",
+"name": "University of Alaska Fairbanks"
+},
+{
+_id: ObjectId(),
+"acronym": "UAH",
+"name": "University of Alabama at Huntsville"
+},
+{
+_id: ObjectId(),
+"acronym": "UALR",
+"name": "University of Arkansas at Little Rock"
+},
+{
+_id: ObjectId(),
+"acronym": "UAM",
+"name": "University of Arkansas at Monticello"
+},
+{
+_id: ObjectId(),
+"acronym": "UAPB",
+"name": "University of Arkansas at Pine Bluff"
+},
+{
+_id: ObjectId(),
+"acronym": "UB",
+"name": "University of Baltimore"
+},
+{
+_id: ObjectId(),
+"acronym": "UB",
+"name": "University at Buffalo"
+},
+{
+_id: ObjectId(),
+"acronym": "UC",
+"name": "University of California system"
+},
+{
+_id: ObjectId(),
+"acronym": "UC",
+"name": "University of Chicago (also U of C)"
+},
+{
+_id: ObjectId(),
+"acronym": "UC",
+"name": "University of Cincinnati"
+},
+{
+_id: ObjectId(),
+"acronym": "UCA",
+"name": "University of Central Arkansas"
+},
+{
+_id: ObjectId(),
+"acronym": "UCD",
+"name": "University of Colorado Denver"
+},
+{
+_id: ObjectId(),
+"acronym": "UCD",
+"name": "University of California"
+},
+{
+_id: ObjectId(),
+"acronym": "UCD",
+"name": "Davis"
+},
+{
+_id: ObjectId(),
+"acronym": "UCF",
+"name": "University of Central Florida (was Florida Tech)"
+},
+{
+_id: ObjectId(),
+"acronym": "UCI",
+"name": "University of California"
+},
+{
+_id: ObjectId(),
+"acronym": "UCI",
+"name": "Irvine"
+},
+{
+_id: ObjectId(),
+"acronym": "UCLA",
+"name": "University of California"
+},
+{
+_id: ObjectId(),
+"acronym": "UCLA",
+"name": "Los Angeles"
+},
+{
+_id: ObjectId(),
+"acronym": "UCO",
+"name": "University of Central Oklahoma"
+},
+{
+_id: ObjectId(),
+"acronym": "UConn",
+"name": "University of Connecticut"
+},
+{
+_id: ObjectId(),
+"acronym": "UCR",
+"name": "University of California"
+},
+{
+_id: ObjectId(),
+"acronym": "UCR",
+"name": "Riverside"
+},
+{
+_id: ObjectId(),
+"acronym": "UCSB",
+"name": "University of California"
+},
+{
+_id: ObjectId(),
+"acronym": "UCSB",
+"name": "Santa Barbara"
+},
+{
+_id: ObjectId(),
+"acronym": "UCSD",
+"name": "University of California"
+},
+{
+_id: ObjectId(),
+"acronym": "UCSD",
+"name": "San Diego"
+},
+{
+_id: ObjectId(),
+"acronym": "UCSF",
+"name": "University of California"
+},
+{
+_id: ObjectId(),
+"acronym": "UCSF",
+"name": "San Francisco"
+},
+{
+_id: ObjectId(),
+"acronym": "UD",
+"name": "University of Dallas"
+},
+{
+_id: ObjectId(),
+"acronym": "UD",
+"name": "University of Dayton"
+},
+{
+_id: ObjectId(),
+"acronym": "UD",
+"name": "University of Delaware"
+},
+{
+_id: ObjectId(),
+"acronym": "UDM",
+"name": "University of Detroit Mercy"
+},
+{
+_id: ObjectId(),
+"acronym": "UDC",
+"name": "University of the District of Columbia"
+},
+{
+_id: ObjectId(),
+"acronym": "U Dub",
+"name": "University of Washington"
+},
+{
+_id: ObjectId(),
+"acronym": "UF",
+"name": "University of Florida"
+},
+{
+_id: ObjectId(),
+"acronym": "UGA",
+"name": "University of Georgia"
+},
+{
+_id: ObjectId(),
+"acronym": "UH",
+"name": "University of HawaiÊ»i at MÄnoa, University of Hawaii system, University of Houston"
+},
+{
+_id: ObjectId(),
+"acronym": "U of H",
+"name": "University of Houston"
+},
+{
+_id: ObjectId(),
+"acronym": "UHCL",
+"name": "University of Houstonâ€“Clear Lake"
+},
+{
+_id: ObjectId(),
+"acronym": "UHD",
+"name": "University of Houstonâ€“Downtown"
+},
+{
+_id: ObjectId(),
+"acronym": "UHS",
+"name": "University of Houston System"
+},
+{
+_id: ObjectId(),
+"acronym": "UHV",
+"name": "University of Houstonâ€“Victoria"
+},
+{
+_id: ObjectId(),
+"acronym": "UI, U of I",
+"name": "University of Idaho, University of Illinois at Urbana"
+},
+{
+_id: ObjectId(),
+"acronym": "UIC",
+"name": "University of Illinois at Chicago"
+},
+{
+_id: ObjectId(),
+"acronym": "UIUC",
+"name": "University of Illinois at Urbana"
+},
+{
+_id: ObjectId(),
+"acronym": "UK",
+"name": "University of Kentucky"
+},
+{
+_id: ObjectId(),
+"acronym": "UM",
+"name": "University of Miami"
+},
+{
+_id: ObjectId(),
+"acronym": "UM",
+"name": "University of Michigan"
+},
+{
+_id: ObjectId(),
+"acronym": "UM",
+"name": "University of Minnesota"
+},
+{
+_id: ObjectId(),
+"acronym": "UM",
+"name": "Twin Cities"
+},
+{
+_id: ObjectId(),
+"acronym": "UM",
+"name": "University of Montana"
+},
+{
+_id: ObjectId(),
+"acronym": "UMass",
+"name": "University of Massachusetts Amherst"
+},
+{
+_id: ObjectId(),
+"acronym": "UMB",
+"name": "University of Maryland"
+},
+{
+_id: ObjectId(),
+"acronym": "UMB",
+"name": "Baltimore"
+},
+{
+_id: ObjectId(),
+"acronym": "UMB",
+"name": "University of Massachusetts Boston"
+},
+{
+_id: ObjectId(),
+"acronym": "UMBC",
+"name": "University of Maryland"
+},
+{
+_id: ObjectId(),
+"acronym": "UMBC",
+"name": "Baltimore County"
+},
+{
+_id: ObjectId(),
+"acronym": "UMD",
+"name": "University of Maryland"
+},
+{
+_id: ObjectId(),
+"acronym": "UMD",
+"name": "College Park"
+},
+{
+_id: ObjectId(),
+"acronym": "UMD",
+"name": "University of Massachusetts Dartmouth"
+},
+{
+_id: ObjectId(),
+"acronym": "UMD",
+"name": "University of Michiganâ€“Dearborn, or University of Minnesota Duluth"
+},
+{
+_id: ObjectId(),
+"acronym": "UMKC",
+"name": "University of Missouriâ€“Kansas City"
+},
+{
+_id: ObjectId(),
+"acronym": "UML",
+"name": "University of Massachusetts Lowell"
+},
+{
+_id: ObjectId(),
+"acronym": "UMO",
+"name": "University of Maine at Orono"
+},
+{
+_id: ObjectId(),
+"acronym": "UMW",
+"name": "University of Mary Washington"
+},
+{
+_id: ObjectId(),
+"acronym": "UNA",
+"name": "University of North Alabama"
+},
+{
+_id: ObjectId(),
+"acronym": "UNC",
+"name": "University of North Carolina at Chapel Hill"
+},
+{
+_id: ObjectId(),
+"acronym": "UNC",
+"name": "University of Northern Colorado"
+},
+{
+_id: ObjectId(),
+"acronym": "UNCC",
+"name": "University of North Carolina at Charlotte"
+},
+{
+_id: ObjectId(),
+"acronym": "UNCG",
+"name": "University of North Carolina at Greensboro"
+},
+{
+_id: ObjectId(),
+"acronym": "UNCW",
+"name": "University of North Carolina at Wilmington"
+},
+{
+_id: ObjectId(),
+"acronym": "UND",
+"name": "University of North Dakota"
+},
+{
+_id: ObjectId(),
+"acronym": "UNF",
+"name": "University of North Florida"
+},
+{
+_id: ObjectId(),
+"acronym": "UNH",
+"name": "University of New Hampshire"
+},
+{
+_id: ObjectId(),
+"acronym": "UNH",
+"name": "University of New Haven"
+},
+{
+_id: ObjectId(),
+"acronym": "UNI",
+"name": "University of Northern Iowa (was Iowa Teachers)"
+},
+{
+_id: ObjectId(),
+"acronym": "UNK",
+"name": "University of Nebraska at Kearney"
+},
+{
+_id: ObjectId(),
+"acronym": "UNL",
+"name": "University of Nebraskaâ€“Lincoln"
+},
+{
+_id: ObjectId(),
+"acronym": "UNLV",
+"name": "University of Nevada"
+},
+{
+_id: ObjectId(),
+"acronym": "UNLV",
+"name": "Las Vegas (formerly Nevada Southern)"
+},
+{
+_id: ObjectId(),
+"acronym": "UNM",
+"name": "University of New Mexico"
+},
+{
+_id: ObjectId(),
+"acronym": "UNO",
+"name": "University of Nebraska at Omaha"
+},
+{
+_id: ObjectId(),
+"acronym": "UNO",
+"name": "University of New Orleans"
+},
+{
+_id: ObjectId(),
+"acronym": "UNR",
+"name": "University of Nevada"
+},
+{
+_id: ObjectId(),
+"acronym": "UNR",
+"name": "Reno"
+},
+{
+_id: ObjectId(),
+"acronym": "UNT",
+"name": "University of North Texas"
+},
+{
+_id: ObjectId(),
+"acronym": "UO",
+"name": "University of Oregon"
+},
+{
+_id: ObjectId(),
+"acronym": "UOP",
+"name": "University of the Pacific"
+},
+{
+_id: ObjectId(),
+"acronym": "UP",
+"name": "University of Portland"
+},
+{
+_id: ObjectId(),
+"acronym": "UR or U of R",
+"name": "University of Richmond"
+},
+{
+_id: ObjectId(),
+"acronym": "UR or U of R",
+"name": "University of Rochester"
+},
+{
+_id: ObjectId(),
+"acronym": "URI",
+"name": "University of Rhode Island"
+},
+{
+_id: ObjectId(),
+"acronym": "U of S",
+"name": "University of Scranton"
+},
+{
+_id: ObjectId(),
+"acronym": "USA",
+"name": "University of South Alabama"
+},
+{
+_id: ObjectId(),
+"acronym": "USAFA",
+"name": "United States Air Force Academy"
+},
+{
+_id: ObjectId(),
+"acronym": "USAO",
+"name": "University of Science and Arts of Oklahoma"
+},
+{
+_id: ObjectId(),
+"acronym": "USC",
+"name": "University of Southern California"
+},
+{
+_id: ObjectId(),
+"acronym": "USC",
+"name": "University of South Carolina"
+},
+{
+_id: ObjectId(),
+"acronym": "USCA",
+"name": "University of South Carolina Aiken"
+},
+{
+_id: ObjectId(),
+"acronym": "USD",
+"name": "University of San Diego"
+},
+{
+_id: ObjectId(),
+"acronym": "USF",
+"name": "University of San Francisco"
+},
+{
+_id: ObjectId(),
+"acronym": "USF",
+"name": "University of South Florida"
+},
+{
+_id: ObjectId(),
+"acronym": "USFCA",
+"name": "University of San Francisco"
+},
+{
+_id: ObjectId(),
+"acronym": "USI",
+"name": "University of Southern Indiana"
+},
+{
+_id: ObjectId(),
+"acronym": "USM",
+"name": "University of Southern Maine"
+},
+{
+_id: ObjectId(),
+"acronym": "USM",
+"name": "The University of Southern Mississippi"
+},
+{
+_id: ObjectId(),
+"acronym": "USU",
+"name": "Utah State University"
+},
+{
+_id: ObjectId(),
+"acronym": "UT",
+"name": "University of Tampa"
+},
+{
+_id: ObjectId(),
+"acronym": "UT",
+"name": "University of Tennessee"
+},
+{
+_id: ObjectId(),
+"acronym": "UT",
+"name": "University of Texas at Austin"
+},
+{
+_id: ObjectId(),
+"acronym": "UTA",
+"name": "University of Texas at Arlington"
+},
+{
+_id: ObjectId(),
+"acronym": "UTB/TSC",
+"name": "University of Texas at Brownsville and Texas Southmost College"
+},
+{
+_id: ObjectId(),
+"acronym": "UTD",
+"name": "University of Texas at Dallas"
+},
+{
+_id: ObjectId(),
+"acronym": "UTEP",
+"name": "University of Texas at El Paso (was Texas Western)"
+},
+{
+_id: ObjectId(),
+"acronym": "UTPB",
+"name": "University of Texas of the Permian Basin"
+},
+{
+_id: ObjectId(),
+"acronym": "UTSA",
+"name": "University of Texas at San Antonio"
+},
+{
+_id: ObjectId(),
+"acronym": "UVA",
+"name": "University of Virginia"
+},
+{
+_id: ObjectId(),
+"acronym": "UVM",
+"name": "University of Vermont"
+},
+{
+_id: ObjectId(),
+"acronym": "UVU",
+"name": "Utah Valley University"
+},
+{
+_id: ObjectId(),
+"acronym": "UW",
+"name": "University of Washington"
+},
+{
+_id: ObjectId(),
+"acronym": "UW",
+"name": "University of Wisconsin system"
+},
+{
+_id: ObjectId(),
+"acronym": "UW",
+"name": "University of Wisconsinâ€“Madison, University of Wyoming"
+},
+{
+_id: ObjectId(),
+"acronym": "UWF",
+"name": "University of West Florida"
+},
+{
+_id: ObjectId(),
+"acronym": "UWGB",
+"name": "University of Wisconsinâ€“Green Bay"
+},
+{
+_id: ObjectId(),
+"acronym": "UWM",
+"name": "University of Wisconsinâ€“Milwaukee"
+},
+{
+_id: ObjectId(),
+"acronym": "Valpo",
+"name": "Valparaiso University"
+},
+{
+_id: ObjectId(),
+"acronym": "Vandy",
+"name": "Vanderbilt University"
+},
+{
+_id: ObjectId(),
+"acronym": "VCU",
+"name": "Virginia Commonwealth University"
+},
+{
+_id: ObjectId(),
+"acronym": "Virginia Tech",
+"name": "Virginia Polytechnic Institute and State University"
+},
+{
+_id: ObjectId(),
+"acronym": "VMI",
+"name": "Virginia Military Institute"
+},
+{
+_id: ObjectId(),
+"acronym": "VPI",
+"name": "Virginia Polytechnic Institute and State University"
+},
+{
+_id: ObjectId(),
+"acronym": "VSU",
+"name": "Valdosta State University"
+},
+{
+_id: ObjectId(),
+"acronym": "VSU",
+"name": "Virginia State University"
+},
+{
+_id: ObjectId(),
+"acronym": "VT",
+"name": "Virginia Polytechnic Institute and State University"
+},
+{
+_id: ObjectId(),
+"acronym": "VTC",
+"name": "Vermont Technical College"
+},
+{
+_id: ObjectId(),
+"acronym": "VU",
+"name": "Valparaiso University"
+},
+{
+_id: ObjectId(),
+"acronym": "VU",
+"name": "Vanderbilt University"
+},
+{
+_id: ObjectId(),
+"acronym": "VU",
+"name": "Villanova University"
+},
+{
+_id: ObjectId(),
+"acronym": "VU",
+"name": "Vincennes University"
+},
+{
+_id: ObjectId(),
+"acronym": "W&J",
+"name": "Washington & Jefferson College"
+},
+{
+_id: ObjectId(),
+"acronym": "W&L",
+"name": "Washington and Lee University"
+},
+{
+_id: ObjectId(),
+"acronym": "W&M",
+"name": "The College of William & Mary"
+},
+{
+_id: ObjectId(),
+"acronym": "Wash U, WUSTL",
+"name": "Washington University in St. Louis"
+},
+{
+_id: ObjectId(),
+"acronym": "Wazzu",
+"name": "Washington State University"
+},
+{
+_id: ObjectId(),
+"acronym": "WC",
+"name": "Wagner College"
+},
+{
+_id: ObjectId(),
+"acronym": "WCU",
+"name": "Western Carolina University"
+},
+{
+_id: ObjectId(),
+"acronym": "West Point",
+"name": "U.S. Military Academy"
+},
+{
+_id: ObjectId(),
+"acronym": "Western",
+"name": "Western Washington University"
+},
+{
+_id: ObjectId(),
+"acronym": "WFU",
+"name": "Wake Forest University"
+},
+{
+_id: ObjectId(),
+"acronym": "WIU",
+"name": "Western Illinois University"
+},
+{
+_id: ObjectId(),
+"acronym": "WKU",
+"name": "Western Kentucky University"
+},
+{
+_id: ObjectId(),
+"acronym": "WMU",
+"name": "Western Michigan University"
+},
+{
+_id: ObjectId(),
+"acronym": "WPI",
+"name": "Worcester Polytechnic Institute"
+},
+{
+_id: ObjectId(),
+"acronym": "WSU",
+"name": "Washington State University"
+},
+{
+_id: ObjectId(),
+"acronym": "WSU",
+"name": "Wichita State University"
+},
+{
+_id: ObjectId(),
+"acronym": "WSU",
+"name": "Wright State University"
+},
+{
+_id: ObjectId(),
+"acronym": "WTAMU",
+"name": "West Texas A&M University"
+},
+{
+_id: ObjectId(),
+"acronym": "WVU",
+"name": "West Virginia University"
+},
+{
+_id: ObjectId(),
+"acronym": "WWU",
+"name": "Western Washington University"
+},
+{
+_id: ObjectId(),
+"acronym": "XU",
+"name": "Xavier University (Cincinnati)"
+},
+{
+_id: ObjectId(),
+"acronym": "XULA",
+"name": "Xavier University of Louisiana"
+},
+{
+_id: ObjectId(),
+"acronym": "The Y",
+"name": "Brigham Young University"
+},
+{
+_id: ObjectId(),
+"acronym": "YSU",
+"name": "Youngstown State University"
+},
+{
+_id: ObjectId(),
+"acronym": "YU",
+"name": "Yeshiva University"
+},
+{
+_id: ObjectId(),
+"acronym": "YU",
+"name": "Yale University"
+}]
