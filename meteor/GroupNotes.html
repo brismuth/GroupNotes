@@ -3,6 +3,8 @@
 </head>
 
 <body>
+  {{> addClass}}
+  {{> addProfessor}}
   <div class="main-header">
     <div class="header-right">
       {{loginButtons align="right"}}
@@ -16,6 +18,34 @@
 	  </div>
 	</div>
 </body>
+
+<template name="addClass">
+  <div id="addClass" title="Create a class">
+    <form>
+    <fieldset>
+      <!--<label for="professor">Professor</label>
+      <input type="text" name="professor" id="ac_professor" value="" class="full-width">!-->
+      <label for="name">Class Name</label>
+      <input type="text" name="name" id="ac_name" class="form-control text ui-widget-content ui-corner-all">
+      <label for="description">Description</label>
+      <input type="text" name="description" id="ac_description" value="" class="form-control text ui-widget-content ui-corner-all">
+    </fieldset>
+    </form>
+  </div>
+</template>
+
+<template name="addProfessor">
+  <div id="addProfessor" title="Create a class">
+    <form>
+    <fieldset>
+      <label for="professor">First Name</label>
+      <input type="text" name="professor" id="ac_professor" value="" class="full-width">
+      <label for="name">Last Name</label>
+      <input type="text" name="name" id="ac_name" class="form-control text ui-widget-content ui-corner-all">
+    </fieldset>
+    </form>
+  </div>
+</template>
 
 <template name="signin">
   <div class="signin">
@@ -43,7 +73,7 @@
   	</div>
 	<div class="getnote">
 	  <input class="front-field" type="hidden" placeholder="University" name="university" id="university" />
-	  <input class="front-field" type="text" placeholder="Instructor" name="teacher" id="teacher" />
+	  <!--<input class="front-field" type="text" placeholder="Instructor" name="teacher" id="teacher" />!-->
 	  <input class="front-field" type="text" placeholder="Class" name="class" id="class" />	
 		<div class="lubutton">
 			<input type="submit" class="lookupbutton" value="Get Notes" name="notes" />

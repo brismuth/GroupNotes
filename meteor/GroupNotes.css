@@ -116,6 +116,16 @@ body
 
 /* Note Finder */
 
+
+.full-width
+{
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .LandingVideo
 {
   float: left;
