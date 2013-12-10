@@ -11,3 +11,4 @@ With GroupNotes, no worries!
 * [Technologies Used](https://github.com/sixthsmith90/GroupNotes/wiki/Technologies-Used)
 * [Mockups](https://github.com/sixthsmith90/GroupNotes/wiki/Mockups)
 * [Milestone 1](https://github.com/sixthsmith90/GroupNotes/wiki/Milestone-1)
+* [Milestone 2](https://github.com/sixthsmith90/GroupNotes/wiki/Milestone-2)
