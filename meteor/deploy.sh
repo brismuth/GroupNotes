@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #bundle and deploy
+export FOREVER_ROOT='/var/www/deployed/forever'
 forever stop /var/www/deployed/bundle/main.js
 rm -rf /var/www/deployed/bundle
 mrt bundle /var/www/deployed/groupnotes.tgz
