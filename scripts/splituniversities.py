@@ -7,7 +7,7 @@ for r in file:
    acronym = s[0].strip()
    name = s[1].strip()
    
-   output.write("{\n_id: ObjectId(),\n\"acronym\": \"" + acronym + "\",\n\"name\": \"" + name + "\"\n},\n")
+   output.write("{\"acronym\": \"" + acronym + "\",\"name\": \"" + name + "\"}\n")
    
 
 file.close();

@@ -137,7 +137,7 @@ body
 
 .getnote .front-field
 {
-  font-size: 28px;
+  font-size: 20px;
   line-height: 33px;
   left: 0px;
   top: 0px;
@@ -179,6 +179,14 @@ body
   -moz-border-radius: 10px;
   border-radius: 10px;
   border: 1px solid green;
+ background: #22871b; /* Old browsers */
+background: -moz-linear-gradient(top, #22871b 0%, #0d561a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#22871b), color-stop(100%,#0d561a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #22871b 0%,#0d561a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #22871b 0%,#0d561a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #22871b 0%,#0d561a 100%); /* IE10+ */
+background: linear-gradient(to bottom, #22871b 0%,#0d561a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22871b', endColorstr='#0d561a',GradientType=0 ); /* IE6-9 */
 }
 
 .lubutton
@@ -187,3 +195,19 @@ body
   text-align: center;
 }
 
+/* Add new element at end of teacher and class */
+.add
+{
+  background-color: #efe;
+  border: 1px solid #AAA;
+  padding: 3px 3px 3px 5px;
+  background: #eeffee; /* Old browsers */
+background: -moz-linear-gradient(top, #eeffee 0%, #87bc91 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeffee), color-stop(100%,#87bc91)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #eeffee 0%,#87bc91 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #eeffee 0%,#87bc91 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #eeffee 0%,#87bc91 100%); /* IE10+ */
+background: linear-gradient(to bottom, #eeffee 0%,#87bc91 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeffee', endColorstr='#87bc91',GradientType=0 ); /* IE6-9 */
+  
+}
