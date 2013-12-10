@@ -6,6 +6,8 @@ if (Meteor.isClient) {
     notFoundTemplate: 'notFound',
   });
 
+  console.log('running');
+
   Router.map(function () {
     this.route('home', {
       path: '/',
