@@ -121,14 +121,18 @@ body
   float: left;
 }
 
-.ff
+
+.select2-container .select2-choice
 {
-  font-size: 20px;
-  left: 0px;
-  top: 0px;
-  width: 400px;
-  padding: 5px 5px 5px 15px;
-  margin: 14px 0px 0px 10px;
+  height: 40px !important;
+  padding: 5px;
+  border: 1px solid #AAA;
+  border-radius: 10px;
+}
+
+.select2-chosen
+{
+  height: 35px;
 }
 
 .getnote .front-field
@@ -138,8 +142,7 @@ body
   left: 0px;
   top: 0px;
   width: 400px;
-  border: 1px solid #AAA;
-  border-radius: 25px;
+
   padding: 5px 5px 5px 15px;
   margin: 14px 0px 0px 10px;
 }
@@ -151,6 +154,16 @@ body
   height: 400px;
   width: 500px;
   margin: 0px auto 0px 80px;
+}
+
+.front-field
+{
+  font-size: 25px;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+  padding: 5px 5px 5px 15px;
+  margin: 14px 0px 0px 10px;
 }
 
 .lookupbutton
