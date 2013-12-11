@@ -31,6 +31,8 @@ if (Meteor.isClient) {
 
   Template.addClass.rendered = function() {
     $( "#addClass" ).dialog({
+      draggable: false,
+      resizable: false,
       autoOpen: false,
       height: 260,
       width: 350,
@@ -57,6 +59,8 @@ if (Meteor.isClient) {
 
   Template.addProfessor.rendered = function() {
     $( "#addProfessor" ).dialog({
+      draggable: false,
+      resizable: false,
       autoOpen: false,
       height: 300,
       width: 350,
