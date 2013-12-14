@@ -68,9 +68,9 @@
 </template>
 
 <template name="noteFinder">
-  	<div class="LandingVideo">
-    	  <iframe width="560" height="315" src="//www.youtube.com/embed/nloPHAK6PhI" frameborder="0" allowfullscreen></iframe>
-  	</div>
+	<div class="LandingVideo">
+	  <iframe width="560" height="315" src="//www.youtube.com/embed/nloPHAK6PhI" frameborder="0" allowfullscreen></iframe>
+	</div>
 	<div class="getnote">
 	  <input class="front-field" type="hidden" placeholder="University" name="university" id="university" />
 	  <!--<input class="front-field" type="text" placeholder="Instructor" name="teacher" id="teacher" />!-->
@@ -139,32 +139,86 @@
           <input class="form-control" placeholder="Your email address" type="text">
           <label>Subject</label>
           <select class="form-control" id="subject" name="subject">
-              <option selected value="na">
-                  Choose One:
-              </option>
+            <option selected value="na">
+              Choose One:
+            </option>
 
-              <option value="service">
-                  General Customer Service
-              </option>
+            <option value="service">
+              General Customer Service
+            </option>
 
-              <option value="suggestions">
-                  Suggestions
-              </option>
+            <option value="suggestions">
+              Suggestions
+            </option>
 
-              <option value="product">
-                  Product Support
-              </option>
+            <option value="product">
+              Product Support
+            </option>
           </select>
         </div>
         <div class="form-group col-md-5">
-            <label>Message</label> 
-            <textarea  class="form-control" id="message" name="message" rows="10"></textarea>
-            <br>
-						<button class="btn btn-primary pull-right" type="submit">Send</button>
+          <label>Message</label> 
+          <textarea  class="form-control" id="message" name="message" rows="10"></textarea>
+          <br>
+          <button class="btn btn-primary pull-right" type="submit">Send</button>
         </div>
       </div>
     </div>
   </form>
+</template>
+
+<template name="note">
+  <div class="container full-height">
+    <div class="row upper">
+      <div class="span3 full-height">
+        {{> docList}}
+      </div>
+      <div class="span9 editor-container full-height">
+        {{> editor}}
+      </div>
+    </div>
+    <div class="row footer">
+      <div class="span3">{{! placeholder}}</div>
+      <div class="span9">
+        <h3>Edit from multiple browsers for maximum wow!</h3>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template name="docList">
+    <h3>Pick a document...</h3>
+    <ul class="nav nav-pills nav-stacked" id="list">
+      {{#each documents}}
+      {{> docItem}}
+      {{/each}}
+    </ul>
+    <h3>...or start a new one:</h3>
+    <button class="btn btn-warning">New document</button>
+</template>
+
+<template name="docItem">
+  <li class="{{#if current}}active{{/if}}">
+    <a href="#">{{title}}</a>
+  </li>
+</template>
+
+<template name="editor">
+  {{#withif docid}}
+    {{> docTitle}}
+    {{sharejsAce docid callback=config id="editor"}}
+  {{/withif}}
+</template>
+
+<template name="docTitle">
+  <div class="navbar">
+    <div class="navbar-inner">
+      <form class="navbar-form pull-left">
+        <input class="input-xlarge" type="text" value="{{title}}">
+        <button class="btn btn-danger btn-small">Delete this document</button>
+      </form>
+    </div>
+  </div>
 </template>
 
 <template name="notFound"> 

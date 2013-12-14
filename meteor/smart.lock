@@ -2,27 +2,28 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "iron-router": {},
+      "sharejs": {},
       "bootstrap-3": {},
-      "select2": {},
+      "iron-router": {},
       "jquery-ui": {},
-      "jquery-ui-bootstrap": {}
+      "jquery-ui-bootstrap": {},
+      "select2": {}
     },
     "packages": {
-      "iron-router": {
-        "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.6.1",
-        "commit": "4e1ee0581d68bff422a915dacb0bd30eae10fe08"
+      "sharejs": {
+        "git": "https://github.com/mizzao/meteor-sharejs.git",
+        "tag": "v0.3.1",
+        "commit": "342b69be75c08ce9a610e4e428fbc3f7ad97479a"
       },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
         "tag": "v0.3.7",
         "commit": "5dd0d142c870647b910be80bc777b96f0dd45e5e"
       },
-      "select2": {
-        "git": "https://github.com/nate-strauser/meteor-select2.git",
-        "tag": "v3.4.5",
-        "commit": "4a8d05582b949a14f0ee217c185166abbf112822"
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.6.1",
+        "commit": "4e1ee0581d68bff422a915dacb0bd30eae10fe08"
       },
       "jquery-ui": {
         "git": "https://github.com/TimHeckel/meteor-jquery-ui.git",
@@ -33,6 +34,11 @@
         "git": "https://github.com/TimHeckel/meteor-jquery-ui-bootstrap.git",
         "tag": "v0.1.2",
         "commit": "fa742a85639307003e105898e15b631394b63509"
+      },
+      "select2": {
+        "git": "https://github.com/nate-strauser/meteor-select2.git",
+        "tag": "v3.4.5",
+        "commit": "4a8d05582b949a14f0ee217c185166abbf112822"
       }
     }
   }
