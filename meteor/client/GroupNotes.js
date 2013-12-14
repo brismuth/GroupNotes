@@ -150,11 +150,24 @@ Template.noteFinder.rendered = function() {
       query: function (query) {
           var data = {results: []}, i, j, s;
           var regex = new RegExp(query.term, 'i');
-          data.results = Universities.find({$or : [{'name' : regex}, {'acronym' : regex}] }).fetch();
-          data.results.forEach(function(element, index, array) {
-            element.id = element._id._str;
-            element.text = element.acronym + ' - ' + element.name;
-          });
+          var univlist;
+
+          univlist = Universities.find({$or : [{'name' : regex}, {'acronym' : regex}] }).fetch();
+	  
+	  univlist.forEach(function(element, index, array)
+	  {
+	    var id = element._id._str;
+	    var acr = element.acronym;
+	    acr.forEach(function(acrelement, acrindex, acrarray)
+	    {
+	      var school = {};
+	      school.id = id;
+	      school.text = acrelement + ' - ' + element.name;
+	      data.results.push(school);
+	    });
+	    
+	  });
+	  
           query.callback(data);
       }
   });
