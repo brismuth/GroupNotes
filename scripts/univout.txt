@@ -1,0 +1,435 @@
+{"name": "Adelphi University", "acronym": ["AU"]}
+{"name": "Alabama State University", "acronym": ["ASU"]}
+{"name": "Albany State University", "acronym": ["ASU"]}
+{"name": "Albert Einstein College of Medicine", "acronym": ["AECOM"]}
+{"name": "Alcorn State University", "acronym": ["ASU"]}
+{"name": "Alfred University", "acronym": ["AU"]}
+{"name": "American University", "acronym": ["AU"]}
+{"name": "Anderson University", "acronym": ["AU"]}
+{"name": "Angelo State University", "acronym": ["ASU"]}
+{"name": "Appalachian State University", "acronym": ["ASU"]}
+{"name": "Arizona State University", "acronym": ["ASU"]}
+{"name": "Arkansas State University", "acronym": ["ASU"]}
+{"name": "Asbury University", "acronym": ["AU"]}
+{"name": "Ashford University", "acronym": ["AU"]}
+{"name": "Auburn University", "acronym": ["AU"]}
+{"name": "Auburn University Montgomery", "acronym": ["AUM"]}
+{"name": "Augusta State University", "acronym": ["ASU"]}
+{"name": "Ball State University", "acronym": ["BSU"]}
+{"name": "Baltimore", "acronym": ["UMB"]}
+{"name": "Baltimore County", "acronym": ["UMBC"]}
+{"name": "Baylor University", "acronym": ["BU"]}
+{"name": "Berkeley", "acronym": ["Berkeley", "Cal"]}
+{"name": "Binghamton University", "acronym": ["BU"]}
+{"name": "Biola University", "acronym": ["BU"]}
+{"name": "Birmingham", "acronym": ["BSC"]}
+{"name": "Bob Jones University", "acronym": ["BJU"]}
+{"name": "Boise State University", "acronym": ["BSU"]}
+{"name": "Boston College", "acronym": ["BC"]}
+{"name": "Boston University", "acronym": ["BU"]}
+{"name": "Bowling Green State University", "acronym": ["BG"]}
+{"name": "Bradley University", "acronym": ["BU"]}
+{"name": "Brigham Young University", "acronym": ["BYU", "The Y"]}
+{"name": "Brown University", "acronym": ["Brown"]}
+{"name": "Bryn Mawr College", "acronym": ["BMC"]}
+{"name": "Butler University", "acronym": ["BU"]}
+{"name": "California Institute of Technology", "acronym": ["Caltech"]}
+{"name": "California Polytechnic State University", "acronym": ["Cal Poly"]}
+{"name": "California State Polytechnic University", "acronym": ["Cal Poly Pomona"]}
+{"name": "California State University", "acronym": ["Cal State", "Chico State", "CSU", "CSUEB", "CSULA", "CSUS", "Fresno State", "Long Beach State", "SSU"]}
+{"name": "California State University, Sacramento", "acronym": ["Sacramento State/Sac State"]}
+{"name": "California State University, Stanislaus", "acronym": ["Stanislaus State/Stan State"]}
+{"name": "California University of Pennsylvania", "acronym": ["Cal U, CUP"]}
+{"name": "Carnegie Mellon University", "acronym": ["CMU"]}
+{"name": "Case Western Reserve University", "acronym": ["Reserve"]}
+{"name": "Castleton State College", "acronym": ["CSC"]}
+{"name": "Central Connecticut State University", "acronym": ["CCSU"]}
+{"name": "Central Michigan University", "acronym": ["CMU"]}
+{"name": "Central Missouri State University", "acronym": ["CMSU"]}
+{"name": "Central State University", "acronym": ["Central"]}
+{"name": "Chapman University", "acronym": ["CU"]}
+{"name": "Chico", "acronym": ["Chico State"]}
+{"name": "Christopher Newport University", "acronym": ["CNU"]}
+{"name": "City College of New York", "acronym": ["CCNY"]}
+{"name": "City University of New York", "acronym": ["CUNY"]}
+{"name": "Claremont McKenna College", "acronym": ["CMC"]}
+{"name": "Clayton State University", "acronym": ["CSU"]}
+{"name": "Clemson University", "acronym": ["CU"]}
+{"name": "Cleveland State University", "acronym": ["CSU"]}
+{"name": "Coastal Carolina University", "acronym": ["CCU"]}
+{"name": "College Park", "acronym": ["College Park", "UMD"]}
+{"name": "College of Charleston", "acronym": ["C of C"]}
+{"name": "College of Saint Benedict/Saint John's University", "acronym": ["CSB/SJU"]}
+{"name": "College of Saint Elizabeth", "acronym": ["CSE"]}
+{"name": "College of Staten Island", "acronym": ["CSI"]}
+{"name": "Colorado State University", "acronym": ["CSU"]}
+{"name": "Columbia University", "acronym": ["CU"]}
+{"name": "Community College of Vermont", "acronym": ["CCV"]}
+{"name": "Cornell University", "acronym": ["CU"]}
+{"name": "Creighton University", "acronym": ["CU"]}
+{"name": "Davidson College", "acronym": ["DC"]}
+{"name": "Davis", "acronym": ["UCD"]}
+{"name": "DePaul University", "acronym": ["DPU"]}
+{"name": "Denison University", "acronym": ["DU"]}
+{"name": "Drexel University", "acronym": ["DU"]}
+{"name": "Duke University", "acronym": ["DU"]}
+{"name": "Duquesne University", "acronym": ["DU"]}
+{"name": "East Bay (formerly California State University", "acronym": ["CSUEB"]}
+{"name": "East Carolina University", "acronym": ["ECU"]}
+{"name": "East Tennessee State University", "acronym": ["ETSU"]}
+{"name": "Eastern Michigan University", "acronym": ["EMU"]}
+{"name": "Eastern Nazarene College", "acronym": ["ENC"]}
+{"name": "Eastern Washington University", "acronym": ["EWU"]}
+{"name": "Fairleigh Dickinson University", "acronym": ["FDU"]}
+{"name": "Fayetteville State University", "acronym": ["FSU"]}
+{"name": "Ferris State University", "acronym": ["FSU"]}
+{"name": "Fitchburg State University", "acronym": ["FSU"]}
+{"name": "Florida A&M University", "acronym": ["FAMU"]}
+{"name": "Florida Atlantic University", "acronym": ["FAU"]}
+{"name": "Florida Gulf Coast University", "acronym": ["FGCU"]}
+{"name": "Florida International University", "acronym": ["FIU"]}
+{"name": "Florida State University", "acronym": ["FSU"]}
+{"name": "Founders College", "acronym": ["FC"]}
+{"name": "Framingham State University", "acronym": ["FSU"]}
+{"name": "Franklin & Marshall College", "acronym": ["F&M"]}
+{"name": "Fresno", "acronym": ["Fresno State"]}
+{"name": "Frostburg State University", "acronym": ["FSU"]}
+{"name": "Gardner Webb University", "acronym": ["GW, GWU"]}
+{"name": "George Mason University", "acronym": ["GMU", "Mason"]}
+{"name": "George Washington University", "acronym": ["GW, GWU"]}
+{"name": "Georgia College & State University", "acronym": ["GC&SU"]}
+{"name": "Georgia Institute of Technology", "acronym": ["Georgia Tech", "GT"]}
+{"name": "Georgia Southern University", "acronym": ["GSU", "GS"]}
+{"name": "Georgia State University", "acronym": ["GSU"]}
+{"name": "Grand Canyon University", "acronym": ["GCU"]}
+{"name": "Grand Valley State University", "acronym": ["GVSU"]}
+{"name": "Hampton University", "acronym": ["HU"]}
+{"name": "Hampton University (formerly Hampton Institute)", "acronym": ["HIU"]}
+{"name": "Hayward)", "acronym": ["CSUEB"]}
+{"name": "Howard University", "acronym": ["HU"]}
+{"name": "Idaho State University", "acronym": ["ISU"]}
+{"name": "Illinois Institute of Technology", "acronym": ["IIT"]}
+{"name": "Illinois State University", "acronym": ["ISU"]}
+{"name": "Indiana State University", "acronym": ["ISU"]}
+{"name": "Indiana University", "acronym": ["IPFW", "IUPUI"]}
+{"name": "Indiana University Bloomington", "acronym": ["IU/IUB"]}
+{"name": "Indiana University of Pennsylvania", "acronym": ["IUP"]}
+{"name": "Iowa State University", "acronym": ["ISU"]}
+{"name": "Irvine", "acronym": ["UCI"]}
+{"name": "Ithaca College", "acronym": ["IC"]}
+{"name": "Jackson State University", "acronym": ["JSU"]}
+{"name": "Jacksonville State University", "acronym": ["JSU"]}
+{"name": "James Madison University", "acronym": ["JMU", "Madison"]}
+{"name": "Johns Hopkins University", "acronym": ["JHU"]}
+{"name": "Johnson State College", "acronym": ["JSC"]}
+{"name": "Johnson and Wales University", "acronym": ["JWU"]}
+{"name": "Kansas State University", "acronym": ["KSU"]}
+{"name": "Kennesaw State University", "acronym": ["KSU"]}
+{"name": "Kent State University", "acronym": ["KSU"]}
+{"name": "Kentucky State University", "acronym": ["KSU"]}
+{"name": "Lake Superior State University", "acronym": ["LSSU"]}
+{"name": "Las Vegas (formerly Nevada Southern)", "acronym": ["UNLV"]}
+{"name": "Liberty University", "acronym": ["LU"]}
+{"name": "Lincoln Memorial University", "acronym": ["LMU"]}
+{"name": "Lock Haven University", "acronym": ["LHU"]}
+{"name": "Long Beach", "acronym": ["Long Beach State"]}
+{"name": "Long Island University", "acronym": ["LIU"]}
+{"name": "Los Angeles", "acronym": ["CSULA", "UCLA"]}
+{"name": "Louisburg College", "acronym": ["LC"]}
+{"name": "Louisiana State University", "acronym": ["LSU"]}
+{"name": "Louisiana Tech University", "acronym": ["LA Tech"]}
+{"name": "Loyola Marymount University", "acronym": ["LMU"]}
+{"name": "Loyola University Chicago", "acronym": ["LUC"]}
+{"name": "Lyndon State College", "acronym": ["LSC"]}
+{"name": "MWC", "acronym": ["R"]}
+{"name": "Marymount University", "acronym": ["MU"]}
+{"name": "Massachusetts College of Liberal Arts", "acronym": ["MCLA"]}
+{"name": "Massachusetts Institute of Technology", "acronym": ["MIT"]}
+{"name": "Metropolitan State College of Denver", "acronym": ["Metro State"]}
+{"name": "Miami University", "acronym": ["MU"]}
+{"name": "Michigan State University", "acronym": ["MSU"]}
+{"name": "Michigan Technological University", "acronym": ["MTU"]}
+{"name": "Middle Tennessee State University", "acronym": ["MTSU"]}
+{"name": "Mississippi State University", "acronym": ["MSU"]}
+{"name": "Mississippi University for Women", "acronym": ["MUW"]}
+{"name": "Mississippi Valley State University", "acronym": ["MVSU"]}
+{"name": "Missouri State University", "acronym": ["MSU"]}
+{"name": "Missouri University of Science and Technology", "acronym": ["Missouri S&T"]}
+{"name": "Montana State University", "acronym": ["MSU"]}
+{"name": "Montclair State University", "acronym": ["MSU"]}
+{"name": "Morehead State University", "acronym": ["MSU"]}
+{"name": "Mount Holyoke College", "acronym": ["MHC, MoHo"]}
+{"name": "Mountain State University", "acronym": ["MSU"]}
+{"name": "Mt. San Antonio College", "acronym": ["Mt. SAC"]}
+{"name": "Murray State University", "acronym": ["MSU"]}
+{"name": "New College of Florida", "acronym": ["New College/NCF"]}
+{"name": "New Mexico State University", "acronym": ["NMSU"]}
+{"name": "New York City College of Technology", "acronym": ["City Tech"]}
+{"name": "New York Institute of Technology; New York Tech", "acronym": ["NYIT"]}
+{"name": "New York Medical College", "acronym": ["NYMC"]}
+{"name": "New York University", "acronym": ["NYU"]}
+{"name": "Newport News", "acronym": ["Apprentice School"]}
+{"name": "Niagara University, Northwestern University, Norwich University", "acronym": ["NU"]}
+{"name": "Norfolk State University", "acronym": ["NSU"]}
+{"name": "North Carolina A&T State University", "acronym": ["A&T", "NC A&T"]}
+{"name": "North Carolina Central University", "acronym": ["Central", "NCCU"]}
+{"name": "North Carolina State University", "acronym": ["NCSU"]}
+{"name": "North Dakota State University", "acronym": ["NDSU"]}
+{"name": "Northeastern State University (Oklahoma)", "acronym": ["NSU"]}
+{"name": "Northeastern University", "acronym": ["NU"]}
+{"name": "Northern Arizona University", "acronym": ["NAU"]}
+{"name": "Northern Illinois University", "acronym": ["NIU"]}
+{"name": "Northern Michigan University", "acronym": ["NMU"]}
+{"name": "Northern State University (South Dakota)", "acronym": ["NSU"]}
+{"name": "Northern Virginia Community College", "acronym": ["Nova"]}
+{"name": "Northwestern State University (Louisiana)", "acronym": ["NSU"]}
+{"name": "Nova Southeastern University", "acronym": ["NSU"]}
+{"name": "Oakland University", "acronym": ["OU"]}
+{"name": "Oakwood University", "acronym": ["OU"]}
+{"name": "Occidental College", "acronym": ["Oxy"]}
+{"name": "Ohio Dominican University", "acronym": ["ODU"]}
+{"name": "Ohio Northern University", "acronym": ["ONU"]}
+{"name": "Ohio State University", "acronym": ["OSU"]}
+{"name": "Ohio University", "acronym": ["OU"]}
+{"name": "Oklahoma Christian University", "acronym": ["OC"]}
+{"name": "Oklahoma City University", "acronym": ["OCU"]}
+{"name": "Oklahoma State University", "acronym": ["OSU"]}
+{"name": "Old Dominion University", "acronym": ["ODU"]}
+{"name": "Oral Roberts University", "acronym": ["ORU"]}
+{"name": "Orange Coast College", "acronym": ["OCC"]}
+{"name": "Oregon Institute of Technology", "acronym": ["OIT"]}
+{"name": "Oregon State University", "acronym": ["OSU"]}
+{"name": "Pasadena City College", "acronym": ["PCC"]}
+{"name": "Pennsylvania State University", "acronym": ["Penn State", "PSU"]}
+{"name": "Pensacola Christian College", "acronym": ["PCC"]}
+{"name": "Pima Community College", "acronym": ["PCC"]}
+{"name": "Point Loma Nazarene University", "acronym": ["PLNU"]}
+{"name": "Polk Community College", "acronym": ["PCC"]}
+{"name": "Pomona", "acronym": ["Cal Poly Pomona"]}
+{"name": "Portland Community College", "acronym": ["PCC"]}
+{"name": "Portland State University", "acronym": ["PSU"]}
+{"name": "Prairie View A&M University", "acronym": ["PVAMU"]}
+{"name": "Princeton Theological Seminary", "acronym": ["PTS"]}
+{"name": "Providence College", "acronym": ["PC"]}
+{"name": "Pueblo", "acronym": ["CSU"]}
+{"name": "Pueblo Community College", "acronym": ["PCC"]}
+{"name": "Quinnipiac University", "acronym": ["QU"]}
+{"name": "Reno", "acronym": ["UNR"]}
+{"name": "Rensselaer Polytechnic Institute", "acronym": ["RPI"]}
+{"name": "Rhode Island College", "acronym": ["RIC"]}
+{"name": "Rhode Island School of Design", "acronym": ["RISD"]}
+{"name": "Riverside", "acronym": ["UCR"]}
+{"name": "Rochester Institute of Technology", "acronym": ["RIT"]}
+{"name": "Roger Williams University", "acronym": ["RWU"]}
+{"name": "Rose", "acronym": ["RHIT"]}
+{"name": "Rutgers University", "acronym": ["RU"]}
+{"name": "Sacramento", "acronym": ["CSUS"]}
+{"name": "Saint Joseph's University, St. John's University (NY)", "acronym": ["SJU"]}
+{"name": "Saint Louis University", "acronym": ["SLU"]}
+{"name": "San Diego", "acronym": ["UCSD"]}
+{"name": "San Diego State University", "acronym": ["SDSU"]}
+{"name": "San Francisco", "acronym": ["UCSF"]}
+{"name": "San Francisco State University", "acronym": ["SFSU"]}
+{"name": "San Jose State University", "acronym": ["SJSU"]}
+{"name": "San Luis Obispo", "acronym": ["Cal Poly"]}
+{"name": "Santa Barbara", "acronym": ["UCSB"]}
+{"name": "Santa Clara University", "acronym": ["SCU"]}
+{"name": "Savannah State University", "acronym": ["SSU"]}
+{"name": "Seattle Pacific University", "acronym": ["SPU"]}
+{"name": "Shenandoah University", "acronym": ["SU"]}
+{"name": "Slippery Rock University of Pennsylvania", "acronym": ["SRU"]}
+{"name": "Sonoma", "acronym": ["SSU"]}
+{"name": "South Carolina State University", "acronym": ["SCSU"]}
+{"name": "South Dakota School of Mines and Technology", "acronym": ["SDSM&T"]}
+{"name": "South Dakota State University", "acronym": ["SDSU"]}
+{"name": "Southeast Missouri State University", "acronym": ["SEMo"]}
+{"name": "Southeastern Oklahoma State University", "acronym": ["SOSU"]}
+{"name": "Southern Connecticut State University", "acronym": ["SCSU"]}
+{"name": "Southern Illinois University Carbondale", "acronym": ["SIU, SIUC"]}
+{"name": "Southern Illinois University Edwardsville", "acronym": ["SIUE"]}
+{"name": "Southern Methodist University", "acronym": ["SMU"]}
+{"name": "Southern University", "acronym": ["SU"]}
+{"name": "Southern Utah University", "acronym": ["SUU"]}
+{"name": "Spring Hill College", "acronym": ["SHC"]}
+{"name": "St. Bonaventure University", "acronym": ["Bona"]}
+{"name": "St. John Fisher College", "acronym": ["SJFC"]}
+{"name": "St. John's College", "acronym": ["SJC"]}
+{"name": "St. Lawrence University", "acronym": ["SLU"]}
+{"name": "St. Mary's College (CA)", "acronym": ["SMC"]}
+{"name": "Stanford University", "acronym": ["SU"]}
+{"name": "State", "acronym": ["K"]}
+{"name": "State University of New York system", "acronym": ["SUNY"]}
+{"name": "Susquehanna University", "acronym": ["SU"]}
+{"name": "Syracuse University", "acronym": ["Cuse", "SU"]}
+{"name": "Tarleton State University", "acronym": ["TSU"]}
+{"name": "Temple University", "acronym": ["TU"]}
+{"name": "Tennessee State University", "acronym": ["TSU"]}
+{"name": "Texas A&M University", "acronym": ["A&M", "TAMU"]}
+{"name": "Texas Christian University", "acronym": ["TCU"]}
+{"name": "Texas Southern University", "acronym": ["TSU"]}
+{"name": "Texas State Universityâ€“San Marcos", "acronym": ["TxSt"]}
+{"name": "Texas Tech University", "acronym": ["TTU"]}
+{"name": "The College of New Jersey", "acronym": ["TCNJ"]}
+{"name": "The College of William & Mary", "acronym": ["W&M"]}
+{"name": "The University of Southern Mississippi", "acronym": ["USM"]}
+{"name": "Towson University", "acronym": ["TU"]}
+{"name": "Truman State University", "acronym": ["TSU"]}
+{"name": "Tulane University", "acronym": ["TU"]}
+{"name": "Twin Cities", "acronym": ["UM"]}
+{"name": "U.S. Merchant Marine Academy", "acronym": ["Merchant Marine, Kings Point"]}
+{"name": "U.S. Military Academy", "acronym": ["Army", "West Point"]}
+{"name": "U.S. Naval Academy", "acronym": ["Annapolis", "Navy"]}
+{"name": "United States Air Force Academy", "acronym": ["Air Force", "USAFA"]}
+{"name": "United States Coast Guard Academy", "acronym": ["Coast Guard"]}
+{"name": "University at Buffalo", "acronym": ["UB"]}
+{"name": "University of Alabama", "acronym": ["Bama", "UA"]}
+{"name": "University of Alabama at Birmingham", "acronym": ["UAB"]}
+{"name": "University of Alabama at Huntsville", "acronym": ["UAH"]}
+{"name": "University of Alaska Anchorage", "acronym": ["UAA"]}
+{"name": "University of Alaska Fairbanks", "acronym": ["UAF"]}
+{"name": "University of Arizona", "acronym": ["U of A"]}
+{"name": "University of Arkansas", "acronym": ["U of A"]}
+{"name": "University of Arkansas at Little Rock", "acronym": ["UALR"]}
+{"name": "University of Arkansas at Monticello", "acronym": ["UAM"]}
+{"name": "University of Arkansas at Pine Bluff", "acronym": ["UAPB"]}
+{"name": "University of Baltimore", "acronym": ["UB"]}
+{"name": "University of California", "acronym": ["Berkeley", "Cal", "UCD", "UCI", "UCLA", "UCR", "UCSB", "UCSD", "UCSF"]}
+{"name": "University of California system", "acronym": ["UC"]}
+{"name": "University of Central Arkansas", "acronym": ["UCA"]}
+{"name": "University of Central Florida (was Florida Tech)", "acronym": ["UCF"]}
+{"name": "University of Central Oklahoma", "acronym": ["UCO"]}
+{"name": "University of Chicago (also U of C)", "acronym": ["UC"]}
+{"name": "University of Cincinnati", "acronym": ["UC"]}
+{"name": "University of Colorado Denver", "acronym": ["UCD"]}
+{"name": "University of Colorado at Boulder", "acronym": ["CU"]}
+{"name": "University of Colorado system", "acronym": ["CU"]}
+{"name": "University of Connecticut", "acronym": ["UConn"]}
+{"name": "University of Dallas", "acronym": ["UD"]}
+{"name": "University of Dayton", "acronym": ["UD"]}
+{"name": "University of Delaware", "acronym": ["UD"]}
+{"name": "University of Denver", "acronym": ["DU"]}
+{"name": "University of Detroit Mercy", "acronym": ["UDM"]}
+{"name": "University of Florida", "acronym": ["UF"]}
+{"name": "University of Georgia", "acronym": ["UGA"]}
+{"name": "University of HawaiÊ»i at MÄnoa, University of Hawaii system, University of Houston", "acronym": ["UH"]}
+{"name": "University of Houston", "acronym": ["U of H"]}
+{"name": "University of Houston System", "acronym": ["UHS"]}
+{"name": "University of Houstonâ€“Clear Lake", "acronym": ["UHCL"]}
+{"name": "University of Houstonâ€“Downtown", "acronym": ["UHD"]}
+{"name": "University of Houstonâ€“Victoria", "acronym": ["UHV"]}
+{"name": "University of Idaho, University of Illinois at Urbana", "acronym": ["UI, U of I"]}
+{"name": "University of Illinois at Chicago", "acronym": ["UIC"]}
+{"name": "University of Illinois at Urbana", "acronym": ["UIUC"]}
+{"name": "University of Kansas", "acronym": ["KU"]}
+{"name": "University of Kentucky", "acronym": ["UK"]}
+{"name": "University of Maine at Orono", "acronym": ["UMO"]}
+{"name": "University of Mary Washington", "acronym": ["UMW"]}
+{"name": "University of Maryland", "acronym": ["College Park", "UMB", "UMBC", "UMD"]}
+{"name": "University of Massachusetts Amherst", "acronym": ["UMass"]}
+{"name": "University of Massachusetts Boston", "acronym": ["UMB"]}
+{"name": "University of Massachusetts Dartmouth", "acronym": ["UMD"]}
+{"name": "University of Massachusetts Lowell", "acronym": ["UML"]}
+{"name": "University of Miami", "acronym": ["The U", "UM"]}
+{"name": "University of Michigan", "acronym": ["UM"]}
+{"name": "University of Michiganâ€“Dearborn, or University of Minnesota Duluth", "acronym": ["UMD"]}
+{"name": "University of Minnesota", "acronym": ["The U", "UM"]}
+{"name": "University of Mississippi", "acronym": ["Ole Miss"]}
+{"name": "University of Missouri", "acronym": ["Mizzou", "MU"]}
+{"name": "University of Missouriâ€“Kansas City", "acronym": ["UMKC"]}
+{"name": "University of Montana", "acronym": ["UM"]}
+{"name": "University of Nebraska", "acronym": ["NU"]}
+{"name": "University of Nebraska at Kearney", "acronym": ["UNK"]}
+{"name": "University of Nebraska at Omaha", "acronym": ["UNO"]}
+{"name": "University of Nebraskaâ€“Lincoln", "acronym": ["UNL"]}
+{"name": "University of Nevada", "acronym": ["UNLV", "UNR"]}
+{"name": "University of New Hampshire", "acronym": ["UNH"]}
+{"name": "University of New Haven", "acronym": ["UNH"]}
+{"name": "University of New Mexico", "acronym": ["UNM"]}
+{"name": "University of New Orleans", "acronym": ["UNO"]}
+{"name": "University of North Alabama", "acronym": ["UNA"]}
+{"name": "University of North Carolina at Chapel Hill", "acronym": ["Carolina", "Chapel Hill", "UNC"]}
+{"name": "University of North Carolina at Charlotte", "acronym": ["Charlotte", "UNCC"]}
+{"name": "University of North Carolina at Greensboro", "acronym": ["UNCG"]}
+{"name": "University of North Carolina at Wilmington", "acronym": ["UNCW"]}
+{"name": "University of North Dakota", "acronym": ["ND", "UND"]}
+{"name": "University of North Florida", "acronym": ["UNF"]}
+{"name": "University of North Texas", "acronym": ["UNT"]}
+{"name": "University of Northern Colorado", "acronym": ["UNC"]}
+{"name": "University of Northern Iowa (was Iowa Teachers)", "acronym": ["UNI"]}
+{"name": "University of Notre Dame", "acronym": ["ND"]}
+{"name": "University of Oklahoma", "acronym": ["OU"]}
+{"name": "University of Oregon", "acronym": ["UO"]}
+{"name": "University of Pennsylvania", "acronym": ["Penn"]}
+{"name": "University of Pittsburgh", "acronym": ["Pitt"]}
+{"name": "University of Portland", "acronym": ["UP"]}
+{"name": "University of Rhode Island", "acronym": ["URI"]}
+{"name": "University of Richmond", "acronym": ["UR or U of R"]}
+{"name": "University of Rochester", "acronym": ["UR or U of R"]}
+{"name": "University of San Diego", "acronym": ["USD"]}
+{"name": "University of San Francisco", "acronym": ["USF", "USFCA"]}
+{"name": "University of Science and Arts of Oklahoma", "acronym": ["USAO"]}
+{"name": "University of Scranton", "acronym": ["U of S"]}
+{"name": "University of South Alabama", "acronym": ["USA"]}
+{"name": "University of South Carolina", "acronym": ["Carolina", "SC", "USC"]}
+{"name": "University of South Carolina Aiken", "acronym": ["USCA"]}
+{"name": "University of South Florida", "acronym": ["USF"]}
+{"name": "University of Southern California", "acronym": ["SC", "USC"]}
+{"name": "University of Southern Indiana", "acronym": ["USI"]}
+{"name": "University of Southern Maine", "acronym": ["USM"]}
+{"name": "University of Tampa", "acronym": ["UT"]}
+{"name": "University of Tennessee", "acronym": ["UT"]}
+{"name": "University of Tennessee at Chattanooga", "acronym": ["Chatt/Chattanooga"]}
+{"name": "University of Texas at Arlington", "acronym": ["UTA"]}
+{"name": "University of Texas at Austin", "acronym": ["UT"]}
+{"name": "University of Texas at Brownsville and Texas Southmost College", "acronym": ["UTB/TSC"]}
+{"name": "University of Texas at Dallas", "acronym": ["UTD"]}
+{"name": "University of Texas at El Paso (was Texas Western)", "acronym": ["UTEP"]}
+{"name": "University of Texas at San Antonio", "acronym": ["UTSA"]}
+{"name": "University of Texas of the Permian Basin", "acronym": ["UTPB"]}
+{"name": "University of Tulsa", "acronym": ["TU"]}
+{"name": "University of Utah", "acronym": ["The U"]}
+{"name": "University of Vermont", "acronym": ["UVM"]}
+{"name": "University of Virginia", "acronym": ["UVA"]}
+{"name": "University of Washington", "acronym": ["The U", "U Dub", "UW"]}
+{"name": "University of West Florida", "acronym": ["UWF"]}
+{"name": "University of Wisconsin system", "acronym": ["UW"]}
+{"name": "University of Wisconsinâ€“Green Bay", "acronym": ["GB", "UWGB"]}
+{"name": "University of Wisconsinâ€“Madison", "acronym": ["Madison"]}
+{"name": "University of Wisconsinâ€“Madison, University of Wyoming", "acronym": ["UW"]}
+{"name": "University of Wisconsinâ€“Milwaukee", "acronym": ["Milwaukee", "UWM"]}
+{"name": "University of the District of Columbia", "acronym": ["UDC"]}
+{"name": "University of the Pacific", "acronym": ["Pacific", "UOP"]}
+{"name": "University of the South", "acronym": ["Sewanee"]}
+{"name": "Utah State University", "acronym": ["USU"]}
+{"name": "Utah Valley University", "acronym": ["UVU"]}
+{"name": "Valdosta State University", "acronym": ["VSU"]}
+{"name": "Valparaiso University", "acronym": ["Valpo", "VU"]}
+{"name": "Vanderbilt University", "acronym": ["Vandy", "VU"]}
+{"name": "Vermont Technical College", "acronym": ["VTC"]}
+{"name": "Villanova University", "acronym": ["Nova", "VU"]}
+{"name": "Vincennes University", "acronym": ["VU"]}
+{"name": "Virginia Commonwealth University", "acronym": ["VCU"]}
+{"name": "Virginia Military Institute", "acronym": ["VMI"]}
+{"name": "Virginia Polytechnic Institute and State University", "acronym": ["Virginia Tech", "VPI", "VT"]}
+{"name": "Virginia State University", "acronym": ["VSU"]}
+{"name": "Wagner College", "acronym": ["WC"]}
+{"name": "Wake Forest University", "acronym": ["WFU"]}
+{"name": "Washington & Jefferson College", "acronym": ["W&J"]}
+{"name": "Washington State University", "acronym": ["Wazzu", "WSU"]}
+{"name": "Washington University in St. Louis", "acronym": ["Wash U, WUSTL"]}
+{"name": "Washington and Lee University", "acronym": ["W&L"]}
+{"name": "West Texas A&M University", "acronym": ["WTAMU"]}
+{"name": "West Virginia University", "acronym": ["WVU"]}
+{"name": "Western Carolina University", "acronym": ["WCU"]}
+{"name": "Western Illinois University", "acronym": ["WIU"]}
+{"name": "Western Kentucky University", "acronym": ["WKU"]}
+{"name": "Western Michigan University", "acronym": ["WMU"]}
+{"name": "Western Washington University", "acronym": ["Western", "WWU"]}
+{"name": "Wichita State University", "acronym": ["WSU"]}
+{"name": "Worcester Polytechnic Institute", "acronym": ["WPI"]}
+{"name": "Wright State University", "acronym": ["WSU"]}
+{"name": "Xavier University (Cincinnati)", "acronym": ["XU"]}
+{"name": "Xavier University of Louisiana", "acronym": ["XULA"]}
+{"name": "Yale University", "acronym": ["YU"]}
+{"name": "Yeshiva University", "acronym": ["YU"]}
+{"name": "Youngstown State University", "acronym": ["YSU"]}
