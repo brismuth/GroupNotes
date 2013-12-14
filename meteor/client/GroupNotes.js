@@ -1,6 +1,7 @@
 var Universities = new Meteor.Collection("universities");
 var Professors = new Meteor.Collection("professors");
 var Classes = new Meteor.Collection("classes");
+var Chats = new Meteor.Collection("chats");
 
 Router.configure({
   autoRender: false,
@@ -31,6 +32,51 @@ Router.map(function () {
     path: '/note',
     template: 'note',
   });
+
+  this.route('chat', {
+    path: '/chat',
+  });
+});
+
+if (Meteor.user()) {
+  var email = Meteor.user().emails[0].address
+  amplify.store('name', email.split("@")[0]);
+} else {
+  if (!amplify.store('name')) {
+    Meteor.call("getPseudoName", function(error, name) {
+      console.log(name);
+      amplify.store('name', 'Anonymous ' + name);
+    });
+  }
+}
+
+var scrollChatToBottom = function() {
+  var elem = document.getElementById('chat-messages');
+  if (elem) {
+    elem.scrollTop = elem.scrollHeight;
+  }
+}
+
+Template.chat.chat = function () {
+  var cursor = Chats.find({});
+  cursor.observe({
+    added : scrollChatToBottom
+  });
+  return cursor;
+}
+
+Template.chat.rendered = function () {
+  scrollChatToBottom();
+}
+
+Template.chat.events({
+  'keypress #chat-input' : function (evt) {
+    if (evt.which === 13) {
+      var text = $('#chat-input').val();
+      setTimeout("$('#chat-input').val('');", 50);
+      Meteor.call("postChat", amplify.store('name'), text);
+    }
+  }
 });
 
 Template.addClass.rendered = function() {

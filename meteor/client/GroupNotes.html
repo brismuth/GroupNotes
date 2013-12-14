@@ -218,6 +218,18 @@
   </div>
 </template>
 
+<template name="chat">
+  <div id="chat">
+    <h3>Class Chat</h3>
+    <div id="chat-messages">
+      {{#each chat}}
+      <p class="entry" data-id="{{_id}}"><span class="username">{{username}}:</span> {{message}}</p>
+      {{/each}}
+    </div>
+    <textarea id="chat-input" rows="3"></textarea>
+  </div>
+<template>
+
 <template name="notFound"> 
 	404 Page Not Found
 </template>
