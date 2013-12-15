@@ -295,6 +295,8 @@ Template.notesList.events = {
       if (!id) {
         return;
       }
+      noteUpdated(id);
+      window.history.pushState("/note?id=" + id, "Title", "/note?id=" + id);
       return Session.set("noteID", id);
     });
   }
