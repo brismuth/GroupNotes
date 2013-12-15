@@ -231,6 +231,15 @@ body
   position: relative;
 }
 
+input.noteHeader
+{
+  font-size: 18pt;
+  font-weight: bold;
+  height: inherit;
+  width: 100%;
+  margin: 6px 0;
+}
+
 #editor
 {
   height: 300px;
