@@ -13,6 +13,8 @@ var fruits = ['Watermelon','Banana','Mulberry','Plum','Nut','Currant','Boysenber
 
 var fruitID = 0;
 
+var Documents = new Meteor.Collection("documents");
+
 Meteor.methods({
   getPseudoName: function () {
     fruitID = (fruitID + 1) % 78;
@@ -26,5 +28,11 @@ Meteor.methods({
       insert: new Date().getTime(),
       class: 123
     });
+  },
+  deleteDocument: function(id) {
+    Documents.remove(id);
+    if (!this.isSimulation) {
+      return ShareJS.model["delete"](id);
+    }
   }
 });

@@ -228,21 +228,13 @@ body
 
 #editor
 {
-  position: absolute;
-  left: 400px;
-  right: 200px;
-  top: 50px;
-  bottom: 0;
+  height: 300px;
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 /* Chat */
 #chat {
-  position: fixed;
-  width: 25%;
   height: 100%;
-  left: 0px;
-  top: 0px;
   background: #EEE;
   padding: 15px;
 }

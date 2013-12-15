@@ -2,6 +2,7 @@ var Universities = new Meteor.Collection("universities");
 var Professors = new Meteor.Collection("professors");
 var Classes = new Meteor.Collection("classes");
 var Chats = new Meteor.Collection("chats");
+var Documents = new Meteor.Collection("documents");
 
 Router.configure({
   autoRender: false,
@@ -247,3 +248,89 @@ addClass = function() {
   $('#addClass').dialog('open');
 }
 
+noteUpdated = function(destinationNoteID) {
+  var noteID = destinationNoteID || getParameterByName("id");
+  Session.set("noteID", noteID);
+  Session.set("title", Documents.findOne({_id : noteID}).title);
+}
+
+Template.note.created = noteUpdated;
+
+Template.noteEditor.noteID = function() {
+  return Session.get("noteID");
+};
+
+Template.noteTitle.title = function() {
+  return Session.get("title");
+};
+
+getParameterByName = function(name) {
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+//********************************************
+//Imported from CoffeeScript
+//********************************************
+
+Handlebars.registerHelper("withif", function(obj, options) {
+  if (obj) {
+    return options.fn(obj);
+  } else {
+    return options.inverse(this);
+  }
+});
+
+Template.notesList.documents = function() {
+  return Documents.find();
+};
+
+Template.notesList.events = {
+  "click button": function() {
+    return Documents.insert({
+      title: "untitled"
+    }, function(err, id) {
+      if (!id) {
+        return;
+      }
+      return Session.set("noteID", id);
+    });
+  }
+};
+
+Template.noteListItem.current = function() {
+  return Session.equals("noteID", this._id);
+};
+
+Template.noteEditor.events = {
+  "keydown input": function(e) {
+    var id;
+    if (e.keyCode !== 13) {
+      return;
+    }
+    e.preventDefault();
+    $(e.target).blur();
+    id = Session.get("noteID");
+    var title = e.target.value;
+    Session.set("title", title);
+    return Documents.update(id, {
+      title: title
+    });
+  },
+  "click button": function(e) {
+    var id;
+    e.preventDefault();
+    id = Session.get("noteID");
+    Session.set("noteID", null);
+    return Meteor.call("deleteDocument", id);
+  }
+};
+
+Template.noteEditor.config = function() {
+  return function(ace) {
+    ace.setShowPrintMargin(false);
+    return ace.getSession().setUseWrapMode(true);
+  };
+};

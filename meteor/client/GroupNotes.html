@@ -170,11 +170,14 @@
 <template name="note">
   <div class="container full-height">
     <div class="row upper">
-      <div class="span3 full-height">
-        {{> docList}}
+      <div class="col-md-2 chat-container">
+        {{> chat}}
       </div>
-      <div class="span9 editor-container full-height">
-        {{> editor}}
+      <div class="col-md-8 editor-container full-height">
+        {{> noteEditor}}
+      </div>
+      <div class="col-md-2 full-height">
+        {{> notesList}}
       </div>
     </div>
     <div class="row footer">
@@ -183,31 +186,7 @@
   </div>
 </template>
 
-<template name="docList">
-    <h3>Pick a document...</h3>
-    <ul class="nav nav-pills nav-stacked" id="list">
-      {{#each documents}}
-      {{> docItem}}
-      {{/each}}
-    </ul>
-    <h3>...or start a new one:</h3>
-    <button class="btn btn-warning">New document</button>
-</template>
-
-<template name="docItem">
-  <li class="{{#if current}}active{{/if}}">
-    <a href="#">{{title}}</a>
-  </li>
-</template>
-
-<template name="editor">
-  {{#withif docid}}
-    {{> docTitle}}
-    {{sharejsAce docid callback=config id="editor"}}
-  {{/withif}}
-</template>
-
-<template name="docTitle">
+<template name="noteTitle">
   <div class="navbar">
     <div class="navbar-inner">
       <form class="navbar-form pull-left">
@@ -216,6 +195,28 @@
       </form>
     </div>
   </div>
+</template>
+
+<template name="noteEditor">
+  {{> noteTitle}}  
+  {{sharejsAce noteID callback=config id="editor"}}
+</template>
+
+<template name="notesList">
+    <h3>Pick a document...</h3>
+    <ul class="nav nav-pills nav-stacked" id="list">
+      {{#each documents}}
+      {{> noteListItem}}
+      {{/each}}
+    </ul>
+    <h3>...or start a new one:</h3>
+    <button class="btn btn-warning">New document</button>
+</template>
+
+<template name="noteListItem">
+  <li class="{{#if current}}active{{/if}}">
+    <a href="?id={{_id}}" onclick="noteUpdated('{{_id}}')">{{title}}</a>
+  </li>
 </template>
 
 <template name="chat">
