@@ -64,7 +64,9 @@
 </template>
 
 <template name="home">
-	{{> noteFinder}}
+  <div class="container">
+	  {{> noteFinder}}
+  </div>
 </template>
 
 <template name="noteFinder">
@@ -228,10 +230,18 @@
     </div>
     <textarea id="chat-input" rows="3"></textarea>
   </div>
-<template>
+</template>
+
+<template name="noteNotFound">
+  <div id="test" class="container">
+    <h2>Note not found! Please use the search interface found on our <a href="/">home page</a>.</h2>
+  </div>
+</template>
 
 <template name="notFound"> 
-	404 Page Not Found
+	<div class="container">
+    404 Page Not Found
+  </div>
 </template>
 
 <template name="search"> 

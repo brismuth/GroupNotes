@@ -34,6 +34,11 @@ Router.map(function () {
     template: 'note',
   });
 
+  this.route('noteNotFound', {
+    path: '/noteNotFound',
+    template: 'noteNotFound',
+  });
+
   this.route('chat', {
     path: '/chat',
   });
@@ -301,8 +306,14 @@ addClass = function() {
 
 noteUpdated = function(destinationNoteID) {
   var noteID = destinationNoteID || getParameterByName("id");
-  Session.set("noteID", noteID);
-  Session.set("title", Documents.findOne({_id : noteID}).title);
+  var title = Documents.findOne({_id : noteID});
+  if (title)
+  {
+    Session.set("noteID", noteID);
+    Session.set("title", title.title);
+  }
+  else
+    window.location.replace("/noteNotFound");
 }
 
 Template.note.created = noteUpdated;
