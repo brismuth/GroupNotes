@@ -37,6 +37,12 @@ Router.map(function () {
   this.route('chat', {
     path: '/chat',
   });
+  
+  this.route('search', {
+    path: '/search',
+    template: 'search',
+  });
+  
 });
 
 if (Meteor.user()) {
@@ -79,6 +85,51 @@ Template.chat.events({
     }
   }
 });
+
+Template.search.events({
+  
+  'click #searchsubmit' : function (evt) {
+     Session.set("searchitem", $("#search").val());
+  }
+});
+/*
+Template.search.search = function () {
+  
+  var searchitem = Session.get("searchitem");
+  var terms = searchitem.split(" ");
+  var docsquery = [];
+  
+  terms.forEach(function(element, index, array)
+  {
+    docsquery.push({"snapshot" : element});
+ 
+  });
+  
+  var docsSearch = db.docs.find({$or : docsquery});
+  
+  return docsSearch;
+  
+}*/
+
+Template.search.searchTitle = function () {
+  
+  var searchitem = new String(Session.get("searchitem"));
+  var terms = searchitem.split(" ");
+  var documentquery = [];
+  
+  terms.forEach(function(element, index, array)
+  {
+    documentquery.push(element);
+ 
+  });
+  
+//  console.log(documentquery);
+  
+  //var documentsSearch = db.documents.find({'title' : {$all : documentquery}}).fetch();
+  
+//  return documentsSearch;
+}
+
 
 Template.addClass.rendered = function() {
   $( "#addClass" ).dialog({

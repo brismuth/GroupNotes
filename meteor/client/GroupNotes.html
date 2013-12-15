@@ -85,7 +85,8 @@
 	<ul id="footer-menu">
 		<li><a href="/">Home</a> | 
 		<li><a href="contact">Contact Us</a> | 
-		<li><a href="about-us">About us</a>
+		<li><a href="about-us">About us</a> | 
+		<li><a href="search">Search</a>
 	</ul>
 </template>
 
@@ -232,3 +233,18 @@
 <template name="notFound"> 
 	404 Page Not Found
 </template>
+
+<template name="search"> 
+  <div id="divsearch">
+    <form action="" method="get">
+      <input type="text" name="search" id="search" /><br />
+      <input type="button" class="lookupbutton" id="searchsubmit" value="Search" placeholder="Searchterm" />
+    </form>
+  </div>
+  <div id="searchresults">
+  {{#each searchTitle}}
+    <span class="entry" data-id="{{_id}}">{{title}}</span>
+  {{/each}}  
+  </div>
+</template>
+
