@@ -39,6 +39,11 @@ body
   padding-top: 25px;
 }
 
+.main-footer
+{
+  padding-top: 15px;
+}
+
 #footer-menu li
 {
   list-style: none;
