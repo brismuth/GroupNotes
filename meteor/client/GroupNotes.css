@@ -231,7 +231,7 @@ body
   position: relative;
 }
 
-input.noteHeader
+input.note-title
 {
   font-size: 18pt;
   font-weight: bold;
@@ -242,7 +242,7 @@ input.noteHeader
 
 #editor
 {
-  height: 300px;
+  height: 400px;
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
