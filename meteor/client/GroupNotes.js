@@ -138,29 +138,22 @@ Template.search.searchTitle = function () {
 
 Template.addClass.rendered = function() {
   $( "#addClass" ).dialog({
+    autoOpen: false,
     draggable: false,
     resizable: false,
-    autoOpen: false,
-    height: 260,
-    width: 350,
-    modal: true,
     buttons: {
       "Create": function() {
-          console.log(this);
           Classes.insert( {
-            'professor' : $('#ac_professor').val(),
             'name' : $('#ac_name').val(),
             'description' : $('#ac_description').val(),
             'university' : new Meteor.Collection.ObjectID(amplify.store('university'))
           });
           $( this ).dialog( "close" );
       },
-      Cancel: function() {
+      "Cancel": function() {
         $( this ).dialog( "close" );
       }
     },
-    close: function() {
-    }
   });
 }
 
@@ -188,6 +181,26 @@ Template.addProfessor.rendered = function() {
 
 Template.noteFinder.universities = function (today) {
   return Universities.find();
+};
+
+Template.noteFinder.events = {
+  'click input[name="notes"]': function() {
+    Session.set('university', amplify.store('university'));
+    Session.set('class', $('#class').val());
+
+    var c = Classes.findOne({_id : $('#class').val()});
+
+    var noteID;
+
+    if (!c.notes) { // no note exists
+      //create a new noteID, not exactly sure how
+      noteID = 'newid';
+    } else {
+      noteID = c.notes[0].noteID;
+    }
+
+    window.location = '/note?id=' + noteID;
+  }
 };
 
 Template.noteFinder.rendered = function() {
@@ -267,7 +280,7 @@ Template.noteFinder.rendered = function() {
           var name_query = {'name' : regex};
           data.results = Classes.find({$and : [name_query, university_query]}).fetch();
           data.results.forEach(function(element, index, array) {
-            element.id = element._id._str;
+            element.id = element._id;
             element.text = element.name;
           });
           query.callback(data);
