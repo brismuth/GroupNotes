@@ -62,6 +62,7 @@ body
 .frmsignin
 {
   float: right;
+  margin-right: 10px;
 }
 
 .signin
@@ -85,7 +86,7 @@ body
 .signintext
 {
   font-size: 11px;
-  
+  margin-right: 10px;
 }
 
 .signininput
@@ -291,4 +292,14 @@ input.note-title
 #chat em {
   text-decoration: underline;
   font-style: normal;
+}
+
+#errorlogo
+{
+  height: 150px;
+}
+
+.error
+{
+  font-weight: bold;
 }
