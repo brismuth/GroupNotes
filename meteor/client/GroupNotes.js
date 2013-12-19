@@ -188,15 +188,15 @@ Template.noteFinder.events = {
     Session.set('university', amplify.store('university'));
     Session.set('class', $('#class').val());
 
-    var c = Classes.findOne({_id : $('#class').val()});
-
+    var note = Documents.findOne({class : $('#class').val()});    
+    console.log(note);
     var noteID;
 
-    if (!c.notes) { // no note exists
+    if (!note) { // no note exists
       noteID = createNote();
       noteUpdated(noteID);
     } else {
-      noteID = c.notes[0].noteID;
+      noteID = note._id;
     }
 
     window.location = '/note?id=' + noteID;
@@ -399,7 +399,9 @@ Template.noteEditor.events = {
     var title = e.target.value;
     Session.set("title", title);
     return Documents.update(id, {
-      title: title
+      title: title,
+      class: Session.get("class"),
+      university: Session.get("university")
     });
   },
   "click button": function(e) {
