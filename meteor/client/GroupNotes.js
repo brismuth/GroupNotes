@@ -193,8 +193,8 @@ Template.noteFinder.events = {
     var noteID;
 
     if (!c.notes) { // no note exists
-      //create a new noteID, not exactly sure how
-      noteID = 'newid';
+      noteID = createNote();
+      noteUpdated(noteID);
     } else {
       noteID = c.notes[0].noteID;
     }
@@ -329,6 +329,19 @@ noteUpdated = function(destinationNoteID) {
     window.location.replace("/noteNotFound");
 }
 
+createNote = function() {
+  return Documents.insert({
+    title: "untitled"
+  }, function(err, id) {
+    if (!id) {
+      return;
+    }
+    noteUpdated(id);
+    window.history.pushState("/note?id=" + id, "Title", "/note?id=" + id);
+    return Session.set("noteID", id);
+  });
+}
+
 Template.note.created = noteUpdated;
 
 Template.noteEditor.noteID = function() {
@@ -363,18 +376,7 @@ Template.notesList.documents = function() {
 };
 
 Template.notesList.events = {
-  "click button": function() {
-    return Documents.insert({
-      title: "untitled"
-    }, function(err, id) {
-      if (!id) {
-        return;
-      }
-      noteUpdated(id);
-      window.history.pushState("/note?id=" + id, "Title", "/note?id=" + id);
-      return Session.set("noteID", id);
-    });
-  }
+  "click button": createNote
 };
 
 Template.noteListItem.current = function() {
