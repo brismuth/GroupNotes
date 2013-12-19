@@ -69,12 +69,22 @@ body
   text-decoration: none !important;
   font-size: 16px;
   font-weight: bold;
-  background-color: green;
+  color: black;
+}
+
+.login-link-text:hover {
+  color: black !important;
+}
+
+/* for some reason the class is "false" when debugging, and
+"login-form-sign-in" when deployed */
+.false .login-link-text, .login-form-sign-in .login-link-text {
   color: white;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   border: 1px solid green;
+  background-color: green;
   background: #22871b; /* Old browsers */
   background: -moz-linear-gradient(top, #22871b 0%, #0d561a 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#22871b), color-stop(100%,#0d561a)); /* Chrome,Safari4+ */
@@ -85,7 +95,7 @@ body
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22871b', endColorstr='#0d561a',GradientType=0 ); /* IE6-9 */
 }
 
-.login-link-text:hover
+.false .login-link-text:hover, .login-form-sign-in .login-link-text:hover
 {
   color: white !important;
 }
