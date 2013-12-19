@@ -52,12 +52,12 @@ Router.map(function () {
 
 if (Meteor.user()) {
   var email = Meteor.user().emails[0].address
-  amplify.store('name', email.split("@")[0]);
+  Session.set('name', email.split("@")[0]);
 } else {
-  if (!amplify.store('name')) {
+  if (!Session.get('name')) {
     Meteor.call("getPseudoName", function(error, name) {
       console.log(name);
-      amplify.store('name', 'Anonymous ' + name);
+      Session.set('name', '*' + name);
     });
   }
 }
@@ -70,7 +70,7 @@ var scrollChatToBottom = function() {
 }
 
 Template.chat.chat = function () {
-  var cursor = Chats.find({});
+  var cursor = Chats.find({noteID: Session.get('noteID')});
   cursor.observe({
     added : scrollChatToBottom
   });
@@ -86,7 +86,7 @@ Template.chat.events({
     if (evt.which === 13) {
       var text = $('#chat-input').val();
       setTimeout("$('#chat-input').val('');", 50);
-      Meteor.call("postChat", amplify.store('name'), text);
+      Meteor.call("postChat", Session.get('name'), text, Session.get('class'), Session.get('noteID'));
     }
   }
 });
@@ -225,21 +225,21 @@ Template.noteFinder.rendered = function() {
           var univlist;
 
           univlist = Universities.find({$or : [{'name' : regex}, {'acronym' : regex}] }).fetch();
-	  
-	  univlist.forEach(function(element, index, array)
-	  {
-	    var id = element._id._str;
-	    var acr = element.acronym;
-	    acr.forEach(function(acrelement, acrindex, acrarray)
-	    {
-	      var school = {};
-	      school.id = id;
-	      school.text = acrelement + ' - ' + element.name;
-	      data.results.push(school);
-	    });
-	    
-	  });
-	  
+    
+    univlist.forEach(function(element, index, array)
+    {
+      var id = element._id._str;
+      var acr = element.acronym;
+      acr.forEach(function(acrelement, acrindex, acrarray)
+      {
+        var school = {};
+        school.id = id;
+        school.text = acrelement + ' - ' + element.name;
+        data.results.push(school);
+      });
+      
+    });
+    
           query.callback(data);
       }
   });

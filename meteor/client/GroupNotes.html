@@ -9,15 +9,15 @@
     <a href="/"><img id="logo" height="80" src="mainlogo.png" /></a>
     <div class="header-right">
       {{loginButtons align="right"}}
-	  </div>
-	</div>
-	  <div class="main-body">
-	  	{{renderRouter}}
-	  </div>
-	  <div class="main-footer text-center">
-	    {{> footer}}
-	  </div>
-	</div>
+    </div>
+  </div>
+    <div class="main-body">
+      {{renderRouter}}
+    </div>
+    <div class="main-footer text-center">
+      {{> footer}}
+    </div>
+  </div>
 </body>
 
 <template name="addClass">
@@ -57,7 +57,7 @@
       Password<br />
       <input class="signininput" type="password" value="" name="password" /><br />
       <div class="signinb">
-	<input class="signinbutton" type="submit" value="Sign in" name="sign" />
+  <input class="signinbutton" type="submit" value="Sign in" name="sign" />
       </div>
       <div class="register">Or <a href="register.html">Register Here</a></div>
     </form>
@@ -66,31 +66,31 @@
 
 <template name="home">
   <div class="container">
-	  {{> noteFinder}}
+    {{> noteFinder}}
   </div>
 </template>
 
 <template name="noteFinder">
-	<div class="LandingVideo">
-	  <iframe width="560" height="315" src="//www.youtube.com/embed/nloPHAK6PhI" frameborder="0" allowfullscreen></iframe>
-	</div>
-	<div class="getnote">
-	  <input class="front-field" type="hidden" placeholder="University" name="university" id="university" />
-	  <!--<input class="front-field" type="text" placeholder="Instructor" name="teacher" id="teacher" />!-->
-	  <input class="front-field" type="text" placeholder="Class" name="class" id="class" />	
-		<div class="lubutton">
-			<input type="submit" class="lookupbutton" value="Get Notes" name="notes" />
-		</div>
-	</div>
+  <div class="LandingVideo">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/nloPHAK6PhI" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="getnote">
+    <input class="front-field" type="hidden" placeholder="University" name="university" id="university" />
+    <!--<input class="front-field" type="text" placeholder="Instructor" name="teacher" id="teacher" />!-->
+    <input class="front-field" type="text" placeholder="Class" name="class" id="class" /> 
+    <div class="lubutton">
+      <input type="submit" class="lookupbutton" value="Get Notes" name="notes" />
+    </div>
+  </div>
 </template>
 
 <template name="footer">
-	<ul id="footer-menu">
-		<li><a href="/">Home</a> | 
-		<li><a href="contact">Contact Us</a> | 
-		<li><a href="about-us">About us</a> | 
-		<li><a href="search">Search</a>
-	</ul>
+  <ul id="footer-menu">
+    <li><a href="/">Home</a> | 
+    <li><a href="contact">Contact Us</a> | 
+    <li><a href="about-us">About us</a> | 
+    <li><a href="search">Search</a>
+  </ul>
 </template>
 
 <template name="about_us">
@@ -105,7 +105,7 @@
       <p>With GroupNotes, no worries!</p> 
     </div>
     <div class="col-md-4">
-    	
+      
     </div>
     <div class="col-md-1">
     </div>
@@ -113,26 +113,26 @@
 </template>
 
 <template name="home-user">
-	<div class="row">
-		<div class="col-md-4">
-  		<div class="CurrentNotes">
-				<h2>Your Classes</h2>
-				<select class="form-control" name="CurrentClasses" class="CurrentClasses" size="10">
-					<option>Class 1</option>
-		      <option>Class 2</option>
-		      <option>Class 3</option>
-		    </select>
-  		</div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="CurrentNotes">
+        <h2>Your Classes</h2>
+        <select class="form-control" name="CurrentClasses" class="CurrentClasses" size="10">
+          <option>Class 1</option>
+          <option>Class 2</option>
+          <option>Class 3</option>
+        </select>
+      </div>
     </div>
     <div class="col-md-4">
-    	{{> note-finder}}
+      {{> note-finder}}
     </div>
    </div>
 </template>
 
 <template name="contact">
-	<form class="well">
-		<div class="container">
+  <form class="well">
+    <div class="container">
       <div class="row">
         <div class="form-group col-md-3">
           <label>First Name</label>
@@ -232,6 +232,7 @@
       {{/each}}
     </div>
     <textarea id="chat-input" rows="3"></textarea>
+    *Anonymous User
   </div>
 </template>
 

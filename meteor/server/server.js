@@ -21,12 +21,13 @@ Meteor.methods({
     console.log(fruitID);
     return fruits[fruitID - 1];
   },
-  postChat: function(name, text) {
+  postChat: function(name, text, classID, noteID) {
     Chats.insert({
       username: name,
       message: text,
       insert: new Date().getTime(),
-      class: 123
+      classID: classID,
+      noteID: noteID
     });
   },
   deleteDocument: function(id) {
