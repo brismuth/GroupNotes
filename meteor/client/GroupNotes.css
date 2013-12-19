@@ -250,7 +250,8 @@ input.note-title
 {
    margin-left: auto;
    margin-right: auto;
-   width: 100%;
+   width: 300px;
+   text-align: center;
 }
 
 #search
