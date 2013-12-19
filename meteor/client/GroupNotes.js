@@ -193,12 +193,15 @@ Template.noteFinder.events = {
 
     if (!note) { // no note exists
       noteID = createNote();
+      console.log('New note created ' + noteID);
       noteUpdated(noteID);
     } else {
       noteID = note._id;
+      console.log('Existing note found ' + noteID)
+      console.log(note);
     }
 
-    window.location = '/note?id=' + noteID;
+    Router.go('/note?id=' + noteID);
   }
 };
 
@@ -316,6 +319,14 @@ addClass = function() {
   $('#addClass').dialog('open');
 }
 
+
+deleteNote = function() {
+    var id;
+    id = Session.get("noteID");
+    Session.set("noteID", null);
+    return Meteor.call("deleteDocument", id);
+}
+
 noteUpdated = function(destinationNoteID) {
   var noteID = destinationNoteID || getParameterByName("id");
   var note = Documents.findOne({_id : noteID});
@@ -329,7 +340,7 @@ noteUpdated = function(destinationNoteID) {
   }
   else if (count > 0)
   {
-    window.location.replace("/noteNotFound");
+    Router.go("/noteNotFound");
   }
 }
 
@@ -339,6 +350,9 @@ createNote = function() {
     university: Session.get("university"),
     class: Session.get("class")
   }, function(err, id) {
+    if (err) {
+      console.log(err);
+    }
     if (!id) {
       return;
     }
