@@ -6,6 +6,7 @@
   {{> addClass}}
   {{> addProfessor}}
   <div class="main-header">
+    <a href="/"><img id="logo" height="80" src="mainlogo.png" /></a>
     <div class="header-right">
       {{loginButtons align="right"}}
 	  </div>
@@ -200,7 +201,9 @@
 
 <template name="noteEditor">
   {{> noteTitle}}  
+  {{#if noteID}}
   {{sharejsAce noteID callback=config id="editor"}}
+  {{/if}}
 </template>
 
 <template name="notesList">

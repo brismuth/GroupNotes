@@ -319,6 +319,7 @@ addClass = function() {
 noteUpdated = function(destinationNoteID) {
   var noteID = destinationNoteID || getParameterByName("id");
   var note = Documents.findOne({_id : noteID});
+  var count = Documents.find().count();
   if (note)
   {
     Session.set("noteID", noteID);
@@ -326,8 +327,10 @@ noteUpdated = function(destinationNoteID) {
     Session.set("class", note.class);
     Session.set("university", note.university);
   }
-  else
+  else if (count > 0)
+  {
     window.location.replace("/noteNotFound");
+  }
 }
 
 createNote = function() {
@@ -345,7 +348,7 @@ createNote = function() {
   });
 }
 
-Template.note.created = noteUpdated;
+Template.note.rendered = noteUpdated;
 
 Template.noteEditor.noteID = function() {
   return Session.get("noteID");

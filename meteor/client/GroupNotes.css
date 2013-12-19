@@ -23,8 +23,13 @@ body
   margin: 0px;
   height: 80px;
   border: 0px solid #ffffff;
-  background: #ddeecc url('/mainlogo.png') no-repeat top left;
+  background: #ddeecc;
   background-size: 210px 80px;
+}
+
+#logo
+{
+  height: 80px;
 }
 
 .header-right
