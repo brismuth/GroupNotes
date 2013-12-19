@@ -189,7 +189,6 @@ Template.noteFinder.events = {
     Session.set('class', $('#class').val());
 
     var note = Documents.findOne({class : $('#class').val()});    
-    console.log(note);
     var noteID;
 
     if (!note) { // no note exists
