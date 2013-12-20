@@ -431,8 +431,15 @@ input.note-title
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22871b', endColorstr='#0d561a',GradientType=0 ); /* IE6-9 */
 }
 
-.active a
-{
-  background-color: green; 
+.nav-pills.nav-stacked > li > a {
+  margin-bottom: 3px;
   color: green;
 }
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: green;
+}
+
