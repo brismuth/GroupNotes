@@ -1,3 +1,4 @@
+var Viewers = new Meteor.Collection("viewers");
 var Universities = new Meteor.Collection("universities");
 var Professors = new Meteor.Collection("professors");
 var Classes = new Meteor.Collection("classes");

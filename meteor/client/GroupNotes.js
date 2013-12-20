@@ -1,3 +1,4 @@
+var Viewers = new Meteor.Collection("viewers");
 var Universities = new Meteor.Collection("universities");
 var Professors = new Meteor.Collection("professors");
 var Classes = new Meteor.Collection("classes");
@@ -50,6 +51,22 @@ Router.map(function () {
   
 });
 
+Meteor.autorun(function () {
+  var id;
+  if (Meteor.userId()) {
+    id = Meteor.userId();
+  } else {
+    if (amplify.store('userID')) {
+      id = amplify.store('userID');
+    } else {
+      id = new Meteor.Collection.ObjectID()._str;
+    }
+  }
+
+  Session.set('userID', id);
+  amplify.store('userID', id);
+});
+
 if (Meteor.user()) {
   var email = Meteor.user().emails[0].address
   Session.set('name', email.split("@")[0]);
@@ -75,6 +92,10 @@ Template.chat.chat = function () {
     added : scrollChatToBottom
   });
   return cursor;
+}
+
+Template.chat.viewers = function () {
+  return Viewers.find({noteID: Session.get('noteID')});
 }
 
 Template.chat.rendered = function () {
@@ -337,6 +358,15 @@ noteUpdated = function(destinationNoteID) {
     Session.set("title", note.title);
     Session.set("class", note.class);
     Session.set("university", note.university);
+    var result = Viewers.update({
+      _id: Session.get('userID')
+    },{
+      $set : {
+        classID: Session.get("class"),
+        noteID: Session.get("noteID"),
+        name: Session.get("name")
+      }
+    }, {upsert: true});
   }
   else if (count > 0)
   {

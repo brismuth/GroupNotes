@@ -236,6 +236,14 @@
 
 <template name="chat">
   <div id="chat">
+    <div id="viewers">
+      <h3>Collaborators</h3>
+      <ul id="viewers-list">
+      {{#each viewers}}
+        <li>{{name}}</li>
+      {{/each}}
+      </ul>
+    </div>
     <h3>Class Chat</h3>
     <div id="chat-messages">
       {{#each chat}}
