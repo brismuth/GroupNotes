@@ -4,6 +4,7 @@ var Professors = new Meteor.Collection("professors");
 var Classes = new Meteor.Collection("classes");
 var Chats = new Meteor.Collection("chats");
 var Documents = new Meteor.Collection("documents");
+var Docs = new Meteor.Collection("docs");
 
 Router.configure({
   autoRender: false,
@@ -118,24 +119,28 @@ Template.search.events({
      Session.set("searchitem", $("#search").val());
   }
 });
-/*
+
 Template.search.search = function () {
   
-  var searchitem = Session.get("searchitem");
+  var searchitem = new String(Session.get("searchitem"));
   var terms = searchitem.split(" ");
   var docsquery = [];
   
   terms.forEach(function(element, index, array)
   {
     docsquery.push({"snapshot" : element});
- 
   });
   
-  var docsSearch = db.docs.find({$or : docsquery});
+  
+  var docsSearch = Docs.find({$or : docsquery});
+  
+  if (!docsSearch)
+    return "";
+  
   
   return docsSearch;
   
-}*/
+}
 
 Template.search.searchTitle = function () {
   
@@ -145,19 +150,25 @@ Template.search.searchTitle = function () {
   
   terms.forEach(function(element, index, array)
   {
-    documentquery.push(element);
+    documentquery.push({"title" : element});
  
   });
   
-//  console.log(documentquery);
+  //console.log(documentquery);
+    
+  var documentsSearch = Documents.find({$or : documentquery});
   
-  //var documentsSearch = db.documents.find({'title' : {$all : documentquery}}).fetch();
+  if (!documentsSearch)
+    return "";
   
-//  return documentsSearch;
+  return documentsSearch;
 }
 
 
 Template.addClass.rendered = function() {
+  var d = new Date();
+  var t = d.getTime();
+  
   $( "#addClass" ).dialog({
     autoOpen: false,
     draggable: false,
@@ -167,7 +178,8 @@ Template.addClass.rendered = function() {
           Classes.insert( {
             'name' : $('#ac_name').val(),
             'description' : $('#ac_description').val(),
-            'university' : new Meteor.Collection.ObjectID(amplify.store('university'))
+            'university' : new Meteor.Collection.ObjectID(amplify.store('university')),
+            'creationDate' : t
           });
           $( this ).dialog( "close" );
       },
@@ -428,6 +440,12 @@ Template.notesList.documents = function() {
 Template.notesList.events = {
   "click button": createNote
 };
+
+Template.notesList.classtitle = function()
+{
+  var a = Classes.findOne({"_id" : Session.get("class")}); 
+  return (a) ? a["name"] : "";
+}
 
 Template.noteListItem.current = function() {
   return Session.equals("noteID", this._id);

@@ -218,7 +218,7 @@
 </template>
 
 <template name="notesList">
-    <h3>Pick a document...</h3>
+    <h3>{{classtitle}}</h3>
     <ul class="nav nav-pills nav-stacked" id="list">
       {{#each documents}}
       {{> noteListItem}}
@@ -269,15 +269,30 @@
 
 <template name="search"> 
   <div id="divsearch">
-    <form action="" method="get">
+    <form id="searchform" onsubmit="return false">
       <input type="text" name="search" id="search" />
-      <input type="button" class="lookupbutton lubutton" id="searchsubmit" value="Search" placeholder="Searchterm" />
+      <input type="submit" class="lookupbutton lubutton" id="searchsubmit" value="Search" placeholder="Searchterm" />
     </form>
   </div>
   <div id="searchresults">
-  {{#each searchTitle}}
-    <span class="entry" data-id="{{_id}}">{{title}}</span>
-  {{/each}}  
+  <div class="resultsheader">Results</div>
+    {{#each searchTitle}}
+      <a href="note?id={{_id}}" class="entry" data-id="{{_id}}">
+        <div class="sresultitem">
+	  <span class="stitle">{{title}}</span><br />
+	  <span class="sclass"></span><br />
+	  <span class="sdate"></span><br />
+        </div>
+      </a>
+    {{/each}}
+    {{#each search}}
+      <a href="note?id={{_id}}" class="entry" data-id="{{_id}}">
+        <div class="sresultitem">
+	  <span class="stitle"></span><br />
+	  <span class="sdate"></span><br />
+        </div>
+      </a>
+    {{/each}}
   </div>
 </template>
 
