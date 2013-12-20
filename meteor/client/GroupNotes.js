@@ -392,7 +392,7 @@ Handlebars.registerHelper("withif", function(obj, options) {
 });
 
 Template.notesList.documents = function() {
-  return Documents.find();
+  return Documents.find({"class" : Session.get("class")});
 };
 
 Template.notesList.events = {
