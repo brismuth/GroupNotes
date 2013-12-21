@@ -191,7 +191,7 @@
       <div class="col-md-8 editor-container full-height">
         {{> noteEditor}}
       </div>
-      <div class="col-md-2 full-height noteslist">
+      <div class="col-md-2 noteslist">
         {{> notesList}}
       </div>
     </div>
@@ -280,8 +280,8 @@
       <a href="note?id={{_id}}" class="entry" data-id="{{_id}}">
         <div class="sresultitem">
 	  <span class="stitle">{{title}}</span><br />
-	  <span class="sclass"></span><br />
-	  <span class="sdate"></span><br />
+	  <span class="sclass"></span>Class: <br />
+	  <span class="sdate"></span>Creation Date: <br />
         </div>
       </a>
     {{/each}}
