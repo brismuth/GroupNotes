@@ -1,3 +1,5 @@
+Meteor.absoluteUrl.defaultOptions.rootUrl = "http://groupnotes.org/"
+
 var Viewers = new Meteor.Collection("viewers");
 var Universities = new Meteor.Collection("universities");
 var Professors = new Meteor.Collection("professors");
