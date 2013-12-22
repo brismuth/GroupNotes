@@ -341,7 +341,7 @@ input.note-title
 #chat-messages {
   top: 20px;
   height: 300px;
-  overflow: auto;
+  overflow: auto; 
   background: white;
   border: 1px solid gray;
   padding: 2px;
@@ -390,8 +390,9 @@ input.note-title
    font-weight: bold;
    height: 90px;
    width: 140px;
-   transform:rotateY(20deg);
-   transform:rotateZ(5deg);
+   transform: rotateY(20deg) rotateZ(5deg);
+   -ms-transform: rotateY(20deg) rotateZ(5deg);
+   -webkit-transform: rotateY(20deg) rotateZ(5deg);
    text-align: center;
 }
 
