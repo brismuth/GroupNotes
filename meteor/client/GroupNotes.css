@@ -340,8 +340,12 @@ input.note-title
 
 #chat-messages {
   top: 20px;
-  height: 400px;
+  height: 300px;
   overflow: auto;
+  background: white;
+  border: 1px solid gray;
+  padding: 2px;
+  margin-bottom: 10px;
 }
 
 #chat-input {
