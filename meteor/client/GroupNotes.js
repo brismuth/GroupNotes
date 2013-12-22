@@ -164,6 +164,10 @@ Template.search.searchTitle = function () {
   return documentsSearch;
 }
 
+Template.notFound.page = function()
+{
+  return escape(window.location.pathname);
+}
 
 Template.addClass.rendered = function() {
   var d = new Date();

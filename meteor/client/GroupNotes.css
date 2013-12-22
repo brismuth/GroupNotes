@@ -381,12 +381,14 @@ input.note-title
 .errorlocation
 {
    position: absolute;
-   left: 350px;
-   top: 200px;
+   left: 300px;
+   top: 180px;
    font-weight: bold;
-   height: 100px;
-   width: 200px;
-   
+   height: 90px;
+   width: 140px;
+   transform:rotateY(20deg);
+   transform:rotateZ(5deg);
+   text-align: center;
 }
 
 .chat-container
