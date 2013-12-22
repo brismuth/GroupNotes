@@ -365,17 +365,38 @@ input.note-title
 
 #errorlogo
 {
-  height: 150px;
+  height: 400px;
+  position: absolute;
+  left: 20px;
+  top: 80px;
 }
 
 .error
 {
   font-weight: bold;
+  position: absolute;
+  left: 500px;
+}
+
+.errorlocation
+{
+   position: absolute;
+   left: 350px;
+   top: 200px;
+   font-weight: bold;
+   height: 100px;
+   width: 200px;
+   
 }
 
 .chat-container
 {
-  height: 100%;
+  height: 600px;
+}
+
+.mainerrorpage
+{
+  height: 400px;
 }
 
 .noteslist
