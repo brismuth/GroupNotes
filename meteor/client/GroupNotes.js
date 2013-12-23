@@ -55,32 +55,36 @@ Router.map(function () {
 });
 
 Meteor.autorun(function () {
-  var id;
+  id = '';
+  name = '';
   if (Meteor.userId()) {
     id = Meteor.userId();
+    var email = Meteor.user().emails[0].address
+    name = email.split("@")[0];
   } else {
     if (amplify.store('userID')) {
       id = amplify.store('userID');
     } else {
       id = new Meteor.Collection.ObjectID()._str;
+      amplify.store('userID', id);
+    }
+
+    if (amplify.store('name')) {
+      name = amplify.store('name');
+    }
+    else {
+      Meteor.call("getPseudoName", function(error, name2) {
+        name = name2;
+        console.log(name);
+        Session.set('name', name);
+        amplify.store('name', name);
+      });
     }
   }
 
   Session.set('userID', id);
-  amplify.store('userID', id);
+  Session.set('name', name);
 });
-
-if (Meteor.user()) {
-  var email = Meteor.user().emails[0].address
-  Session.set('name', email.split("@")[0]);
-} else {
-  if (!Session.get('name')) {
-    Meteor.call("getPseudoName", function(error, name) {
-      console.log(name);
-      Session.set('name', '*' + name);
-    });
-  }
-}
 
 var scrollChatToBottom = function() {
   var elem = document.getElementById('chat-messages');
@@ -376,15 +380,17 @@ noteUpdated = function(destinationNoteID) {
     Session.set("title", note.title);
     Session.set("class", note.class);
     Session.set("university", note.university);
-    var result = Viewers.update({
-      _id: Session.get('userID')
-    },{
-      $set : {
-        classID: Session.get("class"),
-        noteID: Session.get("noteID"),
-        name: Session.get("name")
-      }
-    }, {upsert: true});
+    if (Meteor.userId()) {
+      var result = Viewers.update({
+        _id: Session.get('userID')
+      },{
+        $set : {
+          classID: Session.get("class"),
+          noteID: Session.get("noteID"),
+          name: Session.get("name")
+        }
+      }, {upsert: true});
+    }
   }
   else if (count > 0)
   {

@@ -18,9 +18,10 @@ var Documents = new Meteor.Collection("documents");
 
 Meteor.methods({
   getPseudoName: function () {
-    fruitID = (fruitID + 1) % 78;
+    /*fruitID = (fruitID + 1) % 78;
     console.log(fruitID);
-    return fruits[fruitID - 1];
+    return fruits[fruitID - 1];*/
+    return 'user' + Math.round(Math.random() * 1e7).toString();
   },
   postChat: function(name, text, classID, noteID) {
     Chats.insert({
