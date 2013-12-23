@@ -94,7 +94,7 @@ var scrollChatToBottom = function() {
 }
 
 Template.chat.chat = function () {
-  var cursor = Chats.find({noteID: Session.get('noteID')});
+  var cursor = Chats.find({classID: Session.get('class')});
   cursor.observe({
     added : scrollChatToBottom
   });
