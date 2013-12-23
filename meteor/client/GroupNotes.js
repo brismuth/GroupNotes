@@ -59,8 +59,12 @@ Meteor.autorun(function () {
   name = '';
   if (Meteor.userId()) {
     id = Meteor.userId();
-    var email = Meteor.user().emails[0].address
-    name = email.split("@")[0];
+    if (Meteor.user().profile && Meteor.user().profile.name) {
+      name = Meteor.user().profile.name
+    } else {
+      var email = Meteor.user().emails[0].address
+      name = email.split("@")[0];
+    }
   } else {
     if (amplify.store('userID')) {
       id = amplify.store('userID');
